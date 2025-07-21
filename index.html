@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Başlık da artık JavaScript tarafından güncellenecek -->
+    <title data-i18n="app_title">CuisineScan - Yemek Tanıma</title>
+    <!-- CSS stillerimiz aynı kalıyor -->
+    <style>
+        /* Önceki tüm CSS kodların burada yer alacak. Değişiklik yok. */
+        body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background-color:#121212;color:#e0e0e0;display:flex;justify-content:center;align-items:center;min-height:100vh;margin:0}#app-container{width:90%;max-width:600px;background-color:#1e1e1e;border-radius:12px;padding:2rem;box-shadow:0 10px 30px rgba(0,0,0,.5);text-align:center}h1,h2,h3,h4{margin:0 0 .5rem 0}h1{color:#bb86fc}h2{color:#03dac6;border-bottom:2px solid #03dac6;padding-bottom:.5rem;margin-top:2rem}#language-selector{margin-bottom:1.5rem}.lang-btn{background-color:#333;color:#e0e0e0;border:1px solid #555;padding:8px 16px;border-radius:20px;cursor:pointer;margin:0 5px;transition:all .2s}.lang-btn:hover{background-color:#444}.lang-btn.active{background-color:#03dac6;color:#121212;border-color:#03dac6}#model-selector{margin:1.5rem 0;display:flex;flex-direction:column;align-items:center;gap:.5rem}#model-selector label{cursor:pointer}#upload-area{margin-top:1.5rem;padding:1rem;border:2px dashed #444;border-radius:8px;background-color:#2a2a2a}#image-input{margin-bottom:1rem}#predict-button{background-color:#bb86fc;color:#121212;border:none;padding:12px 24px;border-radius:8px;font-size:1rem;font-weight:700;cursor:pointer;transition:background-color .3s}#predict-button:hover{background-color:#a76aee}.spinner{border:6px solid #f3f3f3;border-top:6px solid #bb86fc;border-radius:50%;width:50px;height:50px;animation:spin 1s linear infinite;margin:auto}@keyframes spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}.result-card{border:1px solid #333;border-radius:8px;padding:1rem;margin-top:1rem}.result-card h3{color:#03dac6}.result-card strong{color:#bb86fc}.result-card .confidence{font-weight:700;color:#fff}.result-card .calories{font-weight:700;font-size:1.4em;color:#f39c12}.portion-btn{background-color:#333;color:#e0e0e0;border:1px solid #555;padding:8px 16px;border-radius:20px;cursor:pointer;margin:0 5px;transition:all .2s}.portion-btn:hover{background-color:#444}.portion-btn.active{background-color:#bb86fc;color:#121212;border-color:#bb86fc;font-weight:700}
+    </style>
+</head>
+<body>
+    <div id="app-container">
+        <div id="language-selector">
+            <button class="lang-btn active" data-lang="tr">🇹🇷 Türkçe</button>
+            <button class="lang-btn" data-lang="en">🇬🇧 English</button>
+        </div>
+        <!-- Metinler artık data-i18n etiketleriyle işaretlendi -->
+        <h1 data-i18n="app_title">CuisineScan 📸</h1>
+        <p data-i18n="app_subtitle">Yapay zeka ile yemeğini tanı!</p>
+        <div id="model-selector">
+            <p data-i18n="select_prompt">Ne taramak istersin?</p>
+            <label><input type="radio" name="modelType" value="turkish_food" checked> <span data-i18n="option_turkish">Türk Yemeği / Tabak</span></label>
+            <label><input type="radio" name="modelType" value="fruit_veg"> <span data-i18n="option_fruit_veg">Tek Meyve / Sebze</span></label>
+        </div>
+        <div id="upload-area">
+            <input type="file" id="image-input" accept="image/*">
+            <button id="predict-button" data-i18n="button_scan">TARA ve TANI</button>
+        </div>
+        <div id="image-preview-container" style="display: none; margin-top: 1.5rem;">
+            <p id="preview-title" data-i18n="preview_title" style="margin-bottom: 0.5rem; color: #aaa;">Seçilen Resim:</p>
+            <img id="image-preview" src="#" alt="Seçilen resmin önizlemesi" style="max-width: 100%; max-height: 300px; border-radius: 8px; border: 1px solid #444;">
+        </div>
+        <div id="loader" style="display: none; text-align: center; margin-top: 1.5rem;">
+            <div class="spinner"></div>
+            <p data-i18n="loader_text" style="margin-top: 1rem;">Analiz ediliyor...</p>
+        </div>
+        <div id="results-area" style="display: none;">
+            <h2 data-i18n="results_title">Sonuçlar:</h2>
+            <div id="results-content"></div>
+            <div id="portion-controls"></div>
+        </div>
+    </div>
+    <!-- Script dosyasını en sona taşıdık, defer'a artık gerek yok -->
+    <script src="script.js"></script>
+</body>
+</html>

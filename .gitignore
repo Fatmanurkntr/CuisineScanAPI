@@ -1,0 +1,11 @@
+# Sanal ortam klasörünü görmezden gel
+venv/
+
+# Python'un oluşturduğu geçici cache dosyalarını görmezden gel
+__pycache__/
+
+# Python'un derlenmiş dosyalarını görmezden gel
+*.pyc
+
+# macOS'un oluşturduğu sistem dosyalarını görmezden gel
+.DS_Store

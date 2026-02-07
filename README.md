@@ -1,7 +1,8 @@
 # CuisineScan: End-to-End AI-Powered Food Recognition Assistant
 
-![Cover Image or Screenshots](Path_To_Image_Here.png)
-_(Place the cover image from Slide 1 or 2, or side-by-side phone screenshots here)_
+<img width="1016" height="485" alt="Ekran görüntüsü 2026-02-07 180400" src="https://github.com/user-attachments/assets/0fc80887-7683-4775-987e-08cc2f9f55a9" />
+
+<img width="1044" height="366" alt="Ekran görüntüsü 2026-02-07 180424" src="https://github.com/user-attachments/assets/629c1798-bea5-48a7-909d-036ae0154eab" />
 
 > **"Know Your Food, Taste the World."**
 
@@ -32,8 +33,6 @@ The project uses two different complementary models trained via **Transfer Learn
 - **Dual-Model Strategy:** To reduce resource consumption, two separate expert models were trained for "Dishes" and "Fruits/Vegetables". Only the relevant model is loaded into RAM based on the user's selection.
 - **Optimization:** Models were optimized using `float32 -> int8` quantization techniques to run efficiently on mobile devices (.tflite).
 
-![API Architecture or Graph](Graph_Image_Here.png)
-_(Place the API Architecture from Slide 13 or the Graph images from Slide 5 here)_
 
 ---
 
@@ -133,9 +132,4 @@ CuisineScan_Project/
 
 ---
 
-## Developer
 
-**Fatımanur Kantar**
-_Computer Engineering Student @ Istanbul Medeniyet University_
-
-This project was developed to demonstrate competencies in **Computer Vision** and **Mobile AI**.

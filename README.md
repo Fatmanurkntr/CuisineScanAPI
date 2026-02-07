@@ -1,6 +1,7 @@
 # CuisineScan: End-to-End AI-Powered Food Recognition Assistant
 
-<img width="1016" height="485" alt="Ekran görüntüsü 2026-02-07 180400" src="https://github.com/user-attachments/assets/0fc80887-7683-4775-987e-08cc2f9f55a9" />
+<img width="1198" height="579" alt="Ekran görüntüsü 2026-02-07 190245" src="https://github.com/user-attachments/assets/c36745ad-e850-447a-979d-0b223c67b81c" />
+
 
 <img width="1044" height="366" alt="Ekran görüntüsü 2026-02-07 180424" src="https://github.com/user-attachments/assets/629c1798-bea5-48a7-909d-036ae0154eab" />
 

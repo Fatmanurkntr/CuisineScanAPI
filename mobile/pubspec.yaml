@@ -1,0 +1,66 @@
+name: cuisinescan_final
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  flutter_localizations: 
+    sdk: flutter    
+
+  cupertino_icons: ^1.0.6
+  camera: ^0.11.0+1
+  image_picker: ^0.8.9
+  path_provider: ^2.1.5
+  google_fonts: ^6.2.1
+  flutter_tflite: ^1.0.1
+  image: ^3.3.0
+  provider: ^6.1.5
+  intl: ^0.20.2
+  shared_preferences: ^2.5.3
+  share_plus: ^7.2.2
+  url_launcher: ^6.2.5
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_native_splash: ^2.2.16
+
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/lang/        
+    - assets/data/
+    - assets/turk_mutfagi_model_mobil.tflite
+    - assets/turk_mutfagi_labels.txt
+    - assets/meyve_sebze_model_mobil.tflite
+    - assets/meyve_sebze_labels.txt
+
+flutter_native_splash:
+  # Bu renk, açılış ekranının arka plan rengi olacak
+  color: "#F8F7F5" 
+  
+  # Uygulama ikonu için kullanılacak ana resim
+  image: assets/images/logo.png
+  
+  # Android için özel ayarlar
+  android_12:
+    # Android 12 ve sonrası için açılış ekranı ayarları
+    image: assets/images/logo.png
+    color: "#F8F7F5"
+
+  # UYGULAMA İKONU AYARI BURADA
+  # Bu komut, flutter_launcher_icons'ın yaptığı işin aynısını yapar
+  android: true
+  ios: true
+  web: false # Web için oluşturma

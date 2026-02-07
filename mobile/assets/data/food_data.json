@@ -1,0 +1,1915 @@
+{
+  "tr": {
+    "adana-kebap": {
+      "displayName": "Adana Kebap",
+      "description": "Acısıyla meşhur, elle kıyılmış et kebabı.",
+      "history": "Adana kökenli olan bu kebap, coğrafi işaret tescili ile korunmaktadır.",
+      "mainIngredients": [
+        "kuzu kıyma",
+        "kuyruk yağı",
+        "pul biber",
+        "tuz"
+      ],
+      "tags": [
+        "et",
+        "kebap",
+        "acılı",
+        "ızgara",
+        "Adana"
+      ],
+      "nutritionInfo": {
+        "calories_per_100g": 250,
+        "default_serving_size_g": 220
+      }
+    },
+    "baklava": {
+      "displayName": "Baklava",
+      "description": "Kıyılmış fındık/ceviz ile doldurulmuş ve şerbetle bir arada tutulan, kat kat yufkadan yapılmış zengin, tatlı bir hamur işi.",
+      "imageUrl": "assets/images/baklava.jpg",
+      "history": "Kökeni Osmanlı İmparatorluğu'na dayanan baklavanın en ünlüsü Gaziantep'te yapılır.",
+      "mainIngredients": [
+        "yufka",
+        "fıstık veya ceviz",
+        "tereyağı",
+        "şeker şerbeti"
+      ],
+      "tags": [
+        "tatlı",
+        "şerbetli",
+        "hamur işi",
+        "fıstıklı",
+        "Gaziantep"
+      ],
+      "nutritionInfo": {
+        "calories_per_100g": 400,
+        "default_serving_size_g": 80
+      }
+    },
+    "doner": {
+      "displayName": "Döner Kebap",
+      "description": "Ters bir koni şeklinde istiflenmiş ve dikey bir rotisserie üzerinde yavaşça döndürülen baharatlı et.",
+      "imageUrl": "assets/images/doner.jpg",
+      "history": "Türkiye'de yaygın bir sokak yemeği olan modern formu 19. yüzyılda popülerleşmiştir.",
+      "mainIngredients": [
+        "sığır veya tavuk eti",
+        "baharatlar",
+        "pide",
+        "sebzeler"
+      ],
+      "tags": [
+        "et",
+        "tavuk",
+        "kebap",
+        "sokak lezzeti",
+        "dürüm"
+      ],
+      "nutritionInfo": {
+        "calories_per_100g": 220,
+        "default_serving_size_g": 250
+      }
+    },
+    "iskender": {
+      "displayName": "İskender Kebap",
+      "description": "Pide üzerinde servis edilen, üzerine bolca sıcak domates sosu ve cızırdayan eritilmiş tereyağı dökülen döner eti.",
+      "imageUrl": "assets/images/iskender.jpg",
+      "history": "19. yüzyılın sonlarında Bursa'da İskender Efendi tarafından icat edilmiştir.",
+      "mainIngredients": [
+        "döner eti",
+        "pide",
+        "domates sosu",
+        "tereyağı",
+        "yoğurt"
+      ],
+      "tags": [
+        "et",
+        "kebap",
+        "yoğurtlu",
+        "soslu",
+        "Bursa"
+      ],
+      "nutritionInfo": {
+        "calories_per_100g": 160,
+        "default_serving_size_g": 450
+      }
+    },
+    "manti": {
+      "displayName": "Mantı",
+      "description": "Kıyma ile doldurulmuş, haşlanmış ve yoğurt-sarımsak sosu ile servis edilen küçük hamur parçaları.",
+      "history": "Genellikle Türk raviolisi olarak adlandırılır.",
+      "imageUrl": "assets/images/manti.jpg",
+      "mainIngredients": [
+        "un",
+        "kıyma",
+        "soğan",
+        "yoğurt",
+        "sarımsak"
+      ],
+      "tags": [
+        "kıyma",
+        "hamur işi",
+        "yoğurtlu",
+        "soslu",
+        "Kayseri"
+      ],
+      "nutritionInfo": {
+        "calories_per_100g": 210,
+        "default_serving_size_g": 250
+      }
+    },
+    "lahmacun": {
+      "displayName": "Lahmacun",
+      "description": "Kıyma, sebze ve otlarla kaplı ince hamurun fırında pişirilmesi.",
+      "imageUrl": "assets/images/lahmacun.jpg",
+      "history": "Genellikle 'Türk pizzası' olarak bilinen popüler bir hızlı yemektir.",
+      "mainIngredients": [
+        "hamur",
+        "kıyma",
+        "domates",
+        "biber",
+        "maydanoz"
+      ],
+      "tags": [
+        "kıyma",
+        "hamur işi",
+        "fırın",
+        "sokak lezzeti",
+        "Gaziantep"
+      ],
+      "nutritionInfo": {
+        "calories_per_100g": 180,
+        "default_serving_size_g": 150
+      }
+    },
+    "mercimek-corbasi": {
+      "displayName": "Mercimek Çorbası",
+      "description": "Kırmızı mercimekten yapılan, kremalı ve doyurucu bir çorba.",
+      "history": "Türkiye'de en yaygın ve sevilen çorbalardan biridir.",
+      "mainIngredients": [
+        "kırmızı mercimek",
+        "soğan",
+        "havuç",
+        "patates",
+        "nane"
+      ],
+      "tags": [
+        "çorba",
+        "bakliyat",
+        "sıcak başlangıç",
+        "vejetaryen"
+      ],
+      "nutritionInfo": {
+        "calories_per_100g": 50,
+        "default_serving_size_g": 300
+      }
+    },
+    "yaprak-sarma": {
+      "displayName": "Yaprak Sarma",
+      "description": "Pirinç, soğan ve otlarla doldurulmuş asma yaprakları.",
+      "history": "Osmanlı ve Türk mutfağındaki 'dolma' yemeklerinin klasik bir örneğidir.",
+      "mainIngredients": [
+        "asma yaprağı",
+        "pirinç",
+        "soğan",
+        "zeytinyağı",
+        "otlar"
+      ],
+      "tags": [
+        "zeytinyağlı",
+        "dolma",
+        "meze",
+        "pirinçli",
+        "vejetaryen"
+      ],
+      "nutritionInfo": {
+        "calories_per_100g": 140,
+        "default_serving_size_g": 150
+      }
+    },
+    "sutlac": {
+      "displayName": "Sütlaç",
+      "description": "Genellikle üzeri hafifçe karamelize edilmiş, klasik, kremalı fırında sütlaç.",
+      "imageUrl": "assets/images/sutlac.jpg",
+      "history": "Adı 'sütlü aş'tan gelen bu tatlı, Osmanlı saray mutfağında derin köklere sahiptir.",
+      "mainIngredients": [
+        "pirinç",
+        "süt",
+        "şeker",
+        "vanilya"
+      ],
+      "tags": [
+        "tatlı",
+        "sütlü tatlı",
+        "pirinçli",
+        "fırın"
+      ],
+      "nutritionInfo": {
+        "calories_per_100g": 135,
+        "default_serving_size_g": 220
+      }
+    },
+    "menemen": {
+      "displayName": "Menemen",
+      "description": "Yumurta, domates ve biberle yapılan geleneksel bir kahvaltı yemeği.",
+      "history": "İzmir'in Menemen ilçesinden köken alan bu yemek, sadeliğiyle ulusal bir favori haline gelmiştir.",
+      "mainIngredients": [
+        "yumurta",
+        "domates",
+        "yeşil biber",
+        "zeytinyağı"
+      ],
+      "tags": [
+        "kahvaltılık",
+        "yumurtalı",
+        "sebzeli",
+        "tava yemeği"
+      ],
+      "nutritionInfo": {
+        "calories_per_100g": 110,
+        "default_serving_size_g": 250
+      }
+    },
+    "icli-kofte": {
+      "displayName": "İçli Köfte",
+      "description": "Baharatlı kıyma, soğan ve cevizle doldurulmuş, kızartılmış veya haşlanmış bulgur topları.",
+      "imageUrl": "assets/images/icli-kofte.jpg",
+      "history": "Güneydoğu Türkiye'den gelen, bölge mutfağının zengin karakterini yansıtan bir lezzettir.",
+      "mainIngredients": [
+        "bulgur",
+        "kıyma",
+        "soğan",
+        "ceviz"
+      ],
+      "tags": [
+        "kıyma",
+        "bulgur",
+        "kızartma",
+        "haşlama",
+        "yöresel"
+      ],
+      "nutritionInfo": {
+        "calories_per_100g": 215,
+        "default_serving_size_g": 180
+      }
+    },
+    "kokorec": {
+      "displayName": "Kokoreç",
+      "description": "Izgarada pişirilmiş baharatlı kuzu bağırsağı, doğranmış ve ekmek arası servis edilir.",
+      "history": "Özellikle gece gezmelerinden sonra popüler bir sokak yemeği klasiğidir.",
+      "mainIngredients": [
+        "kuzu bağırsağı",
+        "baharatlar",
+        "ekmek"
+      ],
+      "tags": [],
+      "nutritionInfo": {
+        "calories_per_100g": 280,
+        "default_serving_size_g": 200
+      }
+    },
+    "cig-kofte": {
+      "displayName": "Çiğ Köfte",
+      "description": "Aslen çiğ etle yapılan, şimdi genellikle vejetaryen olan baharatlı bulgur köfteleri.",
+      "history": "Şanlıurfa geleneklerine dayanan, yaygın bir sokak yemeğidir.",
+      "mainIngredients": [
+        "bulgur",
+        "domates salçası",
+        "biber salçası",
+        "baharatlar"
+      ],
+      "tags": [],
+      "nutritionInfo": {
+        "calories_per_100g": 170,
+        "default_serving_size_g": 180
+      }
+    },
+    "su-boregi": {
+      "displayName": "Su Böreği",
+      "description": "Pişirilmeden önce haşlanan yufka katmanlarından yapılan, peynirli ve maydanozlu bir börek.",
+      "history": "Osmanlı saray mutfağından gelen, özel günlerde servis edilen lüks bir yemektir.",
+      "mainIngredients": [
+        "yufka",
+        "peynir",
+        "maydanoz",
+        "tereyağı"
+      ],
+      "tags": [],
+      "nutritionInfo": {
+        "calories_per_100g": 290,
+        "default_serving_size_g": 150
+      }
+    },
+    "tantuni": {
+      "displayName": "Tantuni",
+      "description": "İnce dilimlenmiş sote etin lavaşa sarılmasıyla yapılan bir dürüm.",
+      "history": "Mersin'e özgü, hafif ve baharatlı lezzetiyle bilinen bir spesiyalitedir.",
+      "mainIngredients": [
+        "dana eti",
+        "lavaş",
+        "soğan",
+        "maydanoz"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "kazandibi": {
+      "displayName": "Kazandibi",
+      "description": "Benzersiz yanık alt tabakasıyla bilinen, karamelize bir süt tatlısı.",
+      "history": "Sütlaç veya muhallebinin altının karamelize edilmesiyle yapılan ikonik bir Osmanlı saray tatlısıdır.",
+      "mainIngredients": [
+        "süt",
+        "pirinç unu",
+        "şeker",
+        "tereyağı"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "tulumba-tatlisi": {
+      "displayName": "Tulumba Tatlısı",
+      "description": "Şeker şerbetine batırılmış, dışı çıtır içi yumuşak, kızartılmış hamur.",
+      "history": "Türkiye genelinde sevilen, genellikle soğuk servis edilen bir sokak tatlısıdır.",
+      "mainIngredients": [
+        "un",
+        "irmik",
+        "yumurta",
+        "şerbet",
+        "yağ"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "karniyarik": {
+      "displayName": "Karnıyarık",
+      "description": "Kıyma karışımıyla doldurulmuş ve domates sosunda pişirilmiş kızarmış patlıcanlar.",
+      "history": "Genellikle pilavla servis edilen, en ikonik Türk ev yemeklerinden biridir.",
+      "mainIngredients": [
+        "patlıcan",
+        "kıyma",
+        "soğan",
+        "domates"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "hunkar-begendi": {
+      "displayName": "Hünkar Beğendi",
+      "description": "Kremalı, közlenmiş patlıcan püresi üzerinde servis edilen yumuşak kuzu güveç.",
+      "history": "Rivayete göre Sultan Abdülaziz'i ziyareti sırasında İmparatoriçe Eugénie için yaratılmıştır.",
+      "mainIngredients": [
+        "kuzu veya dana eti",
+        "patlıcan",
+        "süt",
+        "un"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "bulgur-pilavi": {
+      "displayName": "Bulgur Pilavı",
+      "description": "Genellikle domates, biber ve soğanla pişirilen, iri bulgurdan yapılmış doyurucu bir pilav.",
+      "history": "Beyaz pirince göre daha sağlıklı bir alternatif olarak kabul edilen temel bir yan yemektir.",
+      "mainIngredients": [
+        "bulgur",
+        "domates salçası",
+        "soğan",
+        "tereyağı"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "kisir": {
+      "displayName": "Kısır",
+      "description": "İnce bulgur, maydanoz, domates ve nar ekşisi ile tatlandırılmış ferahlatıcı bir salata.",
+      "history": "Özellikle Türkiye'nin güney bölgelerinde popüler bir meze ve yan yemektir.",
+      "mainIngredients": [
+        "ince bulgur",
+        "maydanoz",
+        "domates salçası",
+        "nar ekşisi"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "kunefe": {
+      "displayName": "Künefe",
+      "description": "İnce tel kadayıf ile yapılan, şerbete batırılmış ve sıcak servis edilen tatlı bir peynir tatlısı.",
+      "history": "Hatay bölgesine özgü, esnek, tuzsuz peynir dolgusuyla ünlüdür.",
+      "mainIngredients": [
+        "kadayıf",
+        "tuzsuz peynir",
+        "tereyağı",
+        "şerbet"
+      ],
+      "tags": [
+        "tatlı",
+        "şerbetli",
+        "peynir",
+        "Hatay"
+      ],
+      "nutritionInfo": {}
+    },
+    "pilav": {
+      "displayName": "Pilav",
+      "description": "Tereyağında ve et suyunda pişirilmiş, genellikle şehriyeli beyaz pirinç.",
+      "history": "Osmanlı mutfaklarında mükemmelleştirilmiş, birçok ana yemeğin temelini oluşturur.",
+      "mainIngredients": [
+        "pirinç",
+        "tereyağı",
+        "şehriye",
+        "et suyu"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "cacik": {
+      "displayName": "Cacık",
+      "description": "Yoğurt, salatalık, sarımsak ve naneden yapılan ferahlatıcı bir soğuk çorba veya meze.",
+      "history": "Yunan cacığına benzer ama genellikle daha sulu kıvamdadır.",
+      "mainIngredients": [
+        "yoğurt",
+        "salatalık",
+        "sarımsak",
+        "nane"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "kiymali-pide": {
+      "displayName": "Kıymalı Pide",
+      "description": "Kıyma, domates ve biber karışımıyla kaplanmış, kayık şeklinde bir pide.",
+      "history": "Genellikle Türkiye'nin Karadeniz bölgesi ile ilişkilendirilen çok popüler bir pide türüdür.",
+      "mainIngredients": [
+        "un",
+        "kıyma",
+        "domates",
+        "yeşil biber"
+      ],
+      "tags": [
+        "kıyma",
+        "hamur işi",
+        "fırın",
+        "Karadeniz"
+      ],
+      "nutritionInfo": {}
+    },
+    "salcali-makarna": {
+      "displayName": "Salçalı Makarna",
+      "description": "Sotelenmiş domates salçası ile kaplanmış basit bir Türk ev yemeği.",
+      "history": "Özellikle öğrenciler arasında popüler olan, pratik bir yemektir.",
+      "mainIngredients": [
+        "makarna",
+        "domates salçası",
+        "yağ",
+        "tuz"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "tavuk-sote": {
+      "displayName": "Tavuk Sote",
+      "description": "Domates, biber ve soğanla sotelenmiş, doğranmış tavuk.",
+      "history": "Türkiye'deki evlerde ve lokantalarda bulunan hızlı ve çok yönlü bir ana yemektir.",
+      "mainIngredients": [
+        "tavuk göğsü",
+        "domates",
+        "biber",
+        "soğan"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "coban-salatasi": {
+      "displayName": "Çoban Salata",
+      "description": "İnce doğranmış domates, salatalık, biber, soğan ve maydanozdan yapılan bir salata.",
+      "history": "Adı, bir çobanın kolayca bulabileceği malzemelerden geldiği için mütevazı kökenlerini yansıtır.",
+      "mainIngredients": [
+        "domates",
+        "salatalık",
+        "yeşil biber",
+        "soğan"
+      ],
+      "tags": [
+        "salata",
+        "sebzeli",
+        "hafif",
+        "vejetaryen"
+      ],
+      "nutritionInfo": {}
+    },
+    "tarhana-corbasi": {
+      "displayName": "Tarhana Çorbası",
+      "description": "Tahıl ve yoğurtun fermente edilip kurutulmuş bir karışımı olan 'tarhana'dan yapılan geleneksel bir çorba.",
+      "history": "Eski bir saklama yöntemi olan tarhana, yaz ürünlerinin kışın tüketilmesini sağlar.",
+      "mainIngredients": [
+        "tarhana",
+        "domates salçası",
+        "tereyağı",
+        "nane"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "sulu-kuru-fasulye-yemegi": {
+      "displayName": "Kuru Fasulye",
+      "description": "Domates salçası ve soğanla yavaşça pişirilmiş doyurucu bir beyaz fasulye yahnisi.",
+      "history": "Birçokları tarafından Türkiye'nin milli yemeği olarak kabul edilir.",
+      "mainIngredients": [
+        "beyaz fasulye",
+        "domates salçası",
+        "soğan",
+        "tereyağı"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "peynirli-borek": {
+      "displayName": "Peynirli Börek",
+      "description": "Peynir ve maydanoz karışımıyla doldurulmuş ince yufka katmanlarından yapılan bir börek.",
+      "imageUrl": "assets/images/peynirli-borek.jpg",
+      "history": "Börek, kökleri Osmanlı İmparatorluğu'na dayanan bir hamur işi ailesidir.",
+      "mainIngredients": [
+        "yufka",
+        "beyaz peynir",
+        "maydanoz",
+        "yumurta"
+      ],
+      "tags": [
+        "peynir",
+        "hamur işi",
+        "fırın",
+        "tepsi yemeği"
+      ],
+      "nutritionInfo": {}
+    },
+    "dondurma": {
+      "displayName": "Dondurma",
+      "description": "Sakızlı, elastik dokusu ve erimeye karşı direnciyle bilinen eşsiz bir dondurma türü.",
+      "history": "Kahramanmaraş şehrinden köken alan dokusu, salep ve sakızdan gelir.",
+      "mainIngredients": [
+        "süt",
+        "şeker",
+        "salep",
+        "sakız"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "biber-dolma": {
+      "displayName": "Biber Dolması",
+      "description": "Pirinç, soğan ve ot karışımıyla doldurulmuş, zeytinyağında pişirilmiş dolmalık biberler.",
+      "history": "Türk ve Akdeniz mutfağının temel taşı olan 'dolma'nın klasik bir örneğidir.",
+      "mainIngredients": [
+        "dolmalık biber",
+        "pirinç",
+        "soğan",
+        "domates salçası"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "omlet": {
+      "displayName": "Omlet",
+      "description": "Çırpılmış yumurtaların tavada tereyağı veya yağ ile kızartılmasıyla yapılan basit bir kahvaltı yemeği.",
+      "history": "Dünya çapında bilinen bu yemeğin Türk versiyonu genellikle sade veya peynirlidir.",
+      "mainIngredients": [
+        "yumurta",
+        "tereyağı veya yağ",
+        "tuz"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "turk-kahvesi": {
+      "displayName": "Türk Kahvesi",
+      "description": "Çok ince çekilmiş, filtresiz kahve çekirdekleri kullanılarak hazırlanan, sert tadı ve köpüğüyle bilinen bir kahve.",
+      "history": "UNESCO Somut Olmayan Kültürel Mirası olan bu kahve, Türk kültürünün merkezindedir.",
+      "mainIngredients": [
+        "kahve",
+        "su",
+        "şeker (isteğe bağlı)"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "anne-koftesi": {
+      "displayName": "Anne Köftesi",
+      "description": "Klasik bir aile tarifiyle yapılan, tavada kızartılmış basit köfteler.",
+      "history": "Her ailenin nesilden nesile aktarılan kendi gizli tarifine sahip olduğu, en sevilen ev yemeğidir.",
+      "mainIngredients": [
+        "kıyma",
+        "soğan",
+        "galeta unu",
+        "maydanoz"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "ayran": {
+      "displayName": "Ayran",
+      "description": "Su ve tuzla karıştırılmış, soğuk ve tuzlu bir yoğurt içeceği.",
+      "history": "Orta Asya'da eski köklere sahip geleneksel bir içecektir.",
+      "mainIngredients": [
+        "yoğurt",
+        "su",
+        "tuz"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "cay": {
+      "displayName": "Çay",
+      "description": "'Çaydanlık' adı verilen özel iki katlı bir demlikte demlenen ve küçük lale şeklindeki bardaklarda servis edilen bir siyah çay türü.",
+      "history": "Türkiye'de en çok tüketilen sıcak içecek ve bir misafirperverlik simgesidir.",
+      "mainIngredients": [
+        "siyah çay yaprakları",
+        "su",
+        "şeker (isteğe bağlı)"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "kabak-mucver": {
+      "displayName": "Mücver",
+      "description": "Rendelenmiş kabak, yumurta, un ve dereotu gibi otlardan yapılan, tavada kızartılmış lezzetli köfteler.",
+      "history": "Özellikle yaz aylarında popüler bir meze veya hafif ana yemektir.",
+      "mainIngredients": [
+        "kabak",
+        "yumurta",
+        "un",
+        "dereotu"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "karpuz": {
+      "displayName": "Karpuz",
+      "description": "Yeşil kabuklu ve kırmızı, sulu etli, büyük, tatlı bir meyve.",
+      "history": "Nil Vadisi'nde yetiştirilen karpuz, Türkiye'de yazın bir simgesidir.",
+      "mainIngredients": [
+        "meyve"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "yayla-corbasi": {
+      "displayName": "Yayla Çorbası",
+      "description": "Yoğurt, pirinç ve naneden yapılan kremalı bir çorba.",
+      "history": "Adı, yaylaların taze malzemelerini çağrıştıran klasik bir Türk çorbasıdır.",
+      "mainIngredients": [
+        "yoğurt",
+        "pirinç",
+        "yumurta sarısı",
+        "kuru nane"
+      ],
+      "tags": [
+        "çorba",
+        "yoğurtlu",
+        "pirinçli",
+        "nane"
+      ],
+      "nutritionInfo": {}
+    },
+    "zeytinyagli-fasulye": {
+      "displayName": "Zeytinyağlı Fasulye",
+      "description": "Domates ve soğanla zeytinyağında pişirilmiş hafif bir taze fasulye yemeği.",
+      "history": "Genellikle oda sıcaklığında servis edilen bir Türk mezesidir.",
+      "mainIngredients": [
+        "taze fasulye",
+        "zeytinyağı",
+        "domates",
+        "soğan"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "hamsi-tava": {
+      "displayName": "Hamsi Tava",
+      "description": "Mısır ununa bulanıp tavada çıtır çıtır kızartılmış taze hamsi.",
+      "history": "Hamsi, Karadeniz'in en ikonik balığıdır.",
+      "mainIngredients": [
+        "hamsi",
+        "mısır unu",
+        "yağ",
+        "tuz"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "sucuklu-yumurta": {
+      "displayName": "Sucuklu Yumurta",
+      "description": "Baharatlı Türk sarımsaklı sucuğu (sucuk) dilimleriyle kızartılmış yumurtalardan oluşan sevilen bir kahvaltı yemeği.",
+      "history": "Geleneksel Türk kahvaltısının temelini oluşturan basit, doyurucu ve lezzetli bir yemektir.",
+      "mainIngredients": [
+        "sucuk",
+        "yumurta",
+        "tereyağı veya yağ"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "ispanak-yemegi": {
+      "displayName": "Ispanak Yemeği",
+      "description": "Soğan ve pirinçle pişirilmiş rahatlatıcı bir ev yemeği.",
+      "history": "Genellikle yoğurtla servis edilen klasik bir 'zeytinyağlı' yemeğidir.",
+      "mainIngredients": [
+        "ıspanak",
+        "soğan",
+        "pirinç",
+        "zeytinyağı"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "midye-dolma": {
+      "displayName": "Midye Dolma",
+      "description": "Otlu ve baharatlı pilavla doldurulmuş midyeler. Popüler bir sokak yemeğidir.",
+      "history": "Genellikle bol miktarda yenen ve üzerine limon sıkılan ikonik bir sokak lezzetidir.",
+      "mainIngredients": [
+        "midye",
+        "pirinç",
+        "soğan",
+        "baharatlar",
+        "dereotu"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "gozleme": {
+      "displayName": "Gözleme",
+      "description": "Elle açılmış, çeşitli iç harçlarla doldurulmuş ve sac üzerinde pişirilmiş bir tür yassı ekmek.",
+      "history": "Adı, pişerken üzerinde oluşan kahverengi beneklerden gelen klasik bir köy yemeğidir.",
+      "mainIngredients": [
+        "un",
+        "peynir veya kıyma",
+        "tereyağı"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "simit": {
+      "displayName": "Simit",
+      "description": "Genellikle susam ve pekmezle kaplı, halka şeklinde bir ekmek.",
+      "history": "Tarihi 16. yüzyıla dayanan, İstanbul'un ikonik bir sokak lezzetidir.",
+      "mainIngredients": [
+        "un",
+        "susam",
+        "pekmez"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "apple": {
+      "displayName": "Elma",
+      "description": "Çıtır ve sulu bir meyve.",
+      "history": "Elmanın kökeni Orta Asya'ya dayanır.",
+      "mainIngredients": [
+        "meyve"
+      ],
+      "tags": [
+        "meyve",
+        "sağlıklı",
+        "atıştırmalık"
+      ],
+      "nutritionInfo": {
+        "calories_per_100g": 52,
+        "default_serving_size_g": 180
+      }
+    },
+    "banana": {
+      "displayName": "Muz",
+      "description": "Yüksek potasyum içeriğiyle bilinen, uzun, yenilebilir bir meyve.",
+      "history": "Muzlar, tropikal Hint-Malaya ve Avustralya'ya özgüdür.",
+      "mainIngredients": [
+        "meyve"
+      ],
+      "tags": [
+        "meyve",
+        "sağlıklı",
+        "potasyum"
+      ],
+      "nutritionInfo": {
+        "calories_per_100g": 89,
+        "default_serving_size_g": 118
+      }
+    },
+    "orange": {
+      "displayName": "Portakal",
+      "description": "Tatlı tadı ve C Vitamini deposu olmasıyla bilinen bir narenciye.",
+      "history": "Portakal, pomelo ve mandalinanın bir melezidir.",
+      "mainIngredients": [
+        "meyve"
+      ],
+      "tags": [
+        "meyve",
+        "sağlıklı",
+        "C vitamini",
+        "narenciye"
+      ],
+      "nutritionInfo": {
+        "calories_per_100g": 47,
+        "default_serving_size_g": 150
+      }
+    },
+    "carrot": {
+      "displayName": "Havuç",
+      "description": "Genellikle turuncu renkte olan bir kök sebze.",
+      "history": "Aslen yaprakları ve tohumları için İran'da yetiştirilmiştir.",
+      "mainIngredients": [
+        "sebze"
+      ],
+      "tags": [
+        "sebze",
+        "sağlıklı",
+        "kök sebze"
+      ],
+      "nutritionInfo": {
+        "calories_per_100g": 41,
+        "default_serving_size_g": 61
+      }
+    },
+    "tomato": {
+      "displayName": "Domates",
+      "description": "Yemeklerde sebze olarak kullanılan kırmızı, yenilebilir bir meyve.",
+      "history": "Batı Güney Amerika'ya özgüdür.",
+      "mainIngredients": [
+        "sebze/meyve"
+      ],
+      "tags": [
+        "sebze",
+        "salata",
+        "suluyemek"
+      ],
+      "nutritionInfo": {
+        "calories_per_100g": 18,
+        "default_serving_size_g": 120
+      }
+    },
+    "spinach": {
+      "displayName": "Ispanak",
+      "description": "Besin dolu, yapraklı yeşil bir bitki.",
+      "history": "Çizgi film karakteri Temel Reis sayesinde güçle ünlenmiştir.",
+      "mainIngredients": [
+        "sebze"
+      ],
+      "tags": [
+        "sebze",
+        "yeşillik",
+        "demir"
+      ],
+      "nutritionInfo": {
+        "calories_per_100g": 23,
+        "default_serving_size_g": 100
+      }
+    },
+    "cabbage": {
+      "displayName": "Lahana",
+      "description": "Yoğun yapraklı başları için yetiştirilen bir sebze.",
+      "history": "Binlerce yıldır yetiştirilmekte ve çok yönlülüğü ile bilinmektedir.",
+      "mainIngredients": [
+        "sebze"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "capsicum": {
+      "displayName": "Dolmalık Biber",
+      "description": "Hafif lezzeti ve canlı renkleriyle bilinen büyük bir biber türü.",
+      "history": "Amerika'ya özgüdür ve kaşifler tarafından dünyaya yayılmıştır.",
+      "mainIngredients": [
+        "sebze"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "cauliflower": {
+      "displayName": "Karnabahar",
+      "description": "Adını Latince caulis (lahana) ve floris (çiçek) kelimelerinden alan bir turpgil.",
+      "history": "16. yüzyılda Fransa'da popülerlik kazanmıştır.",
+      "mainIngredients": [
+        "sebze"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "chilli pepper": {
+      "displayName": "Acı Biber",
+      "description": "Acılığıyla bilinen Capsicum cinsine ait bitkilerin meyvesi.",
+      "history": "Amerika'da en az M.Ö. 7500'den beri insan diyetinin bir parçasıdır.",
+      "mainIngredients": [
+        "sebze"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "lemon": {
+      "displayName": "Limon",
+      "description": "Ekşi suyuyla bilinen, turunçgiller familyasından bir meyve.",
+      "history": "Limon, acı portakal ve ağaç kavununun bir melezidir.",
+      "mainIngredients": [
+        "meyve"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "onion": {
+      "displayName": "Soğan",
+      "description": "Keskin lezzetiyle bilinen, Allium cinsinin en yaygın yetiştirilen türü.",
+      "history": "Binlerce yıldır bir gıda maddesi olarak kullanılmıştır.",
+      "mainIngredients": [
+        "sebze"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "potato": {
+      "displayName": "Patates",
+      "description": "Güney Amerika'daki And Dağları'na özgü nişastalı bir kök sebze.",
+      "history": "16. yüzyılda İspanyollar tarafından Avrupa'ya tanıtılmıştır.",
+      "mainIngredients": [
+        "sebze"
+      ],
+      "tags": [
+        "sebze",
+        "karbonhidrat",
+        "kızartma",
+        "haşlama"
+      ],
+      "nutritionInfo": {
+        "calories_per_100g": 77,
+        "default_serving_size_g": 170
+      }
+    }
+  },
+  "en": {
+    "adana-kebap": {
+      "displayName": "Adana Kebap",
+      "description": "A long, hand-minced meat kebab known for its spiciness.",
+      "history": "Originating from Adana, this kebab is a protected designation of origin.",
+      "mainIngredients": [
+        "minced lamb",
+        "tail fat",
+        "red pepper flakes",
+        "salt"
+      ],
+      "tags": [
+        "et",
+        "kebap",
+        "acılı",
+        "ızgara",
+        "Adana"
+      ],
+      "nutritionInfo": {
+        "calories_per_100g": 250,
+        "default_serving_size_g": 220
+      }
+    },
+    "baklava": {
+      "displayName": "Baklava",
+      "description": "A rich, sweet dessert pastry made of layers of filo filled with chopped nuts.",
+      "history": "Its origins trace back to the Ottoman Empire, with Gaziantep being world-famous for it.",
+      "mainIngredients": [
+        "phyllo dough",
+        "pistachios or walnuts",
+        "butter",
+        "sugar syrup"
+      ],
+      "tags": [
+        "tatlı",
+        "şerbetli",
+        "hamur işi",
+        "fıstıklı",
+        "Gaziantep"
+      ],
+      "nutritionInfo": {
+        "calories_per_100g": 400,
+        "default_serving_size_g": 80
+      }
+    },
+    "doner": {
+      "displayName": "Döner Kebap",
+      "description": "Seasoned meat stacked and turned slowly on a vertical rotisserie.",
+      "imageUrl": "assets/images/doner.jpg",
+      "history": "A common street food in Turkey, its modern form was popularized in the 19th century.",
+      "mainIngredients": [
+        "beef or chicken",
+        "spices",
+        "pita bread",
+        "vegetables"
+      ],
+      "tags": [
+        "et",
+        "tavuk",
+        "kebap",
+        "sokak lezzeti",
+        "dürüm"
+      ],
+      "nutritionInfo": {
+        "calories_per_100g": 220,
+        "default_serving_size_g": 250
+      }
+    },
+    "iskender": {
+      "displayName": "İskender Kebap",
+      "description": "Döner meat over pita bread, with hot tomato sauce and sizzling butter.",
+      "history": "Invented by İskender Efendi in Bursa in the late 19th century.",
+      "mainIngredients": [
+        "döner meat",
+        "pita bread",
+        "tomato sauce",
+        "butter",
+        "yogurt"
+      ],
+      "tags": [
+        "et",
+        "kebap",
+        "yoğurtlu",
+        "soslu",
+        "Bursa"
+      ],
+      "nutritionInfo": {
+        "calories_per_100g": 160,
+        "default_serving_size_g": 450
+      }
+    },
+    "manti": {
+      "displayName": "Mantı (Turkish Dumplings)",
+      "description": "Small handmade dumplings filled with minced meat, served with a yogurt and garlic sauce.",
+      "imageUrl": "assets/images/manti.jpg",
+      "history": "A staple in Turkish and Central Asian cuisines, often called Turkish ravioli.",
+      "mainIngredients": [
+        "flour",
+        "minced meat",
+        "onion",
+        "yogurt",
+        "garlic"
+      ],
+      "tags": [
+        "kıyma",
+        "hamur işi",
+        "yoğurtlu",
+        "soslu",
+        "Kayseri"
+      ],
+      "nutritionInfo": {
+        "calories_per_100g": 210,
+        "default_serving_size_g": 250
+      }
+    },
+    "lahmacun": {
+      "displayName": "Lahmacun",
+      "description": "A thin piece of dough topped with minced meat, vegetables, and herbs.",
+      "history": "Often called 'Turkish pizza,' it is a popular and quick meal.",
+      "mainIngredients": [
+        "dough",
+        "minced meat",
+        "tomato",
+        "pepper",
+        "parsley"
+      ],
+      "tags": [
+        "kıyma",
+        "hamur işi",
+        "fırın",
+        "sokak lezzeti",
+        "Gaziantep"
+      ],
+      "nutritionInfo": {
+        "calories_per_100g": 180,
+        "default_serving_size_g": 150
+      }
+    },
+    "mercimek-corbasi": {
+      "displayName": "Lentil Soup",
+      "description": "A creamy and hearty soup made from red lentils, a staple in Turkish cuisine.",
+      "history": "One of the most common and beloved soups in Turkey.",
+      "mainIngredients": [
+        "red lentils",
+        "onion",
+        "carrot",
+        "potato",
+        "mint"
+      ],
+      "tags": [
+        "çorba",
+        "bakliyat",
+        "sıcak başlangıç",
+        "vejetaryen"
+      ],
+      "nutritionInfo": {
+        "calories_per_100g": 50,
+        "default_serving_size_g": 300
+      }
+    },
+    "yaprak-sarma": {
+      "displayName": "Yaprak Sarma (Stuffed Grape Leaves)",
+      "description": "Grape leaves stuffed with a mixture of rice, onions, and herbs.",
+      "history": "A classic example of 'dolma' (stuffed dishes) in Ottoman cuisine.",
+      "mainIngredients": [
+        "grape leaves",
+        "rice",
+        "onion",
+        "olive oil",
+        "herbs"
+      ],
+      "tags": [
+        "zeytinyağlı",
+        "dolma",
+        "meze",
+        "pirinçli",
+        "vejetaryen"
+      ],
+      "nutritionInfo": {
+        "calories_per_100g": 140,
+        "default_serving_size_g": 150
+      }
+    },
+    "sutlac": {
+      "displayName": "Sütlaç (Rice Pudding)",
+      "description": "A classic, creamy oven-baked rice pudding, often with a caramelized top.",
+      "imageUrl": "assets/images/peynirli-borek.jpg",
+      "history": "Its name comes from 'sütlü aş' (milky food) and it has deep roots in Ottoman palace cuisine.",
+      "mainIngredients": [
+        "rice",
+        "milk",
+        "sugar",
+        "vanilla"
+      ],
+      "tags": [
+        "tatlı",
+        "sütlü tatlı",
+        "pirinçli",
+        "fırın"
+      ],
+      "nutritionInfo": {
+        "calories_per_100g": 135,
+        "default_serving_size_g": 220
+      }
+    },
+    "menemen": {
+      "displayName": "Menemen",
+      "description": "A traditional Turkish breakfast dish made with eggs, tomatoes, and peppers.",
+      "history": "Originating from the town of Menemen in İzmir, it's a national favorite.",
+      "mainIngredients": [
+        "eggs",
+        "tomato",
+        "green pepper",
+        "olive oil"
+      ],
+      "tags": [
+        "kahvaltılık",
+        "yumurtalı",
+        "sebzeli",
+        "tava yemeği"
+      ],
+      "nutritionInfo": {
+        "calories_per_100g": 110,
+        "default_serving_size_g": 250
+      }
+    },
+    "icli-kofte": {
+      "displayName": "İçli Köfte (Stuffed Bulgur Balls)",
+      "description": "Deep-fried or boiled bulgur shells filled with seasoned minced meat.",
+      "history": "A delicacy from southeastern Turkey, reflecting the region’s rich cuisine.",
+      "mainIngredients": [
+        "bulgur",
+        "minced meat",
+        "onion",
+        "walnuts"
+      ],
+      "tags": [
+        "kıyma",
+        "bulgur",
+        "kızartma",
+        "haşlama",
+        "yöresel"
+      ],
+      "nutritionInfo": {
+        "calories_per_100g": 215,
+        "default_serving_size_g": 180
+      }
+    },
+    "kokorec": {
+      "displayName": "Kokoreç",
+      "description": "Grilled seasoned lamb intestines, chopped and served in bread.",
+      "history": "A street food classic in Turkey, especially popular after night outings.",
+      "mainIngredients": [
+        "lamb intestines",
+        "spices",
+        "bread"
+      ],
+      "tags": [],
+      "nutritionInfo": {
+        "calories_per_100g": 280,
+        "default_serving_size_g": 200
+      }
+    },
+    "cig-kofte": {
+      "displayName": "Çiğ Köfte",
+      "description": "Spicy bulgur balls, now commonly vegetarian, served wrapped in lettuce.",
+      "history": "Rooted in Şanlıurfa traditions, now a widely consumed street food.",
+      "mainIngredients": [
+        "bulgur",
+        "tomato paste",
+        "pepper paste",
+        "spices"
+      ],
+      "tags": [],
+      "nutritionInfo": {
+        "calories_per_100g": 170,
+        "default_serving_size_g": 180
+      }
+    },
+    "su-boregi": {
+      "displayName": "Su Böreği",
+      "description": "A savory pastry made with layers of dough and cheese, boiled before baking.",
+      "history": "A luxurious dish often served on special occasions, from Ottoman cuisine.",
+      "mainIngredients": [
+        "phyllo dough",
+        "cheese",
+        "parsley",
+        "butter"
+      ],
+      "tags": [],
+      "nutritionInfo": {
+        "calories_per_100g": 290,
+        "default_serving_size_g": 150
+      }
+    },
+    "tantuni": {
+      "displayName": "Tantuni",
+      "description": "Thin slices of sautéed beef or chicken wrapped in lavash bread.",
+      "history": "A specialty from Mersin, known for its light and spicy flavor.",
+      "mainIngredients": [
+        "beef or chicken",
+        "lavash bread",
+        "onion",
+        "parsley"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "kazandibi": {
+      "displayName": "Kazandibi (Caramelized Milk Pudding)",
+      "description": "A caramelized milk dessert, known for its unique burnt-bottom layer.",
+      "history": "An iconic Ottoman palace dessert.",
+      "mainIngredients": [
+        "milk",
+        "rice flour",
+        "sugar",
+        "butter"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "tulumba-tatlisi": {
+      "displayName": "Tulumba Dessert",
+      "description": "Deep-fried dough soaked in sugar syrup, crispy outside and soft inside.",
+      "history": "A beloved street dessert across Turkey.",
+      "mainIngredients": [
+        "flour",
+        "semolina",
+        "egg",
+        "syrup",
+        "oil"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "karniyarik": {
+      "displayName": "Karnıyarık (Stuffed Eggplant)",
+      "description": "Fried eggplants filled with a savory minced meat mixture.",
+      "history": "One of the most iconic Turkish home-cooked meals.",
+      "mainIngredients": [
+        "eggplant",
+        "minced meat",
+        "onion",
+        "tomato",
+        "oil"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "hunkar-begendi": {
+      "displayName": "Hünkar Beğendi (Sultan's Delight)",
+      "description": "Tender lamb stew served over a creamy, smoky eggplant purée.",
+      "history": "Legend says it was created for Empress Eugénie, wife of Napoleon III.",
+      "mainIngredients": [
+        "lamb or beef",
+        "eggplant",
+        "milk",
+        "flour"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "bulgur-pilavi": {
+      "displayName": "Bulgur Pilaf",
+      "description": "A hearty pilaf made from coarse bulgur wheat, often with tomatoes.",
+      "history": "A staple side dish, considered a healthier alternative to rice.",
+      "mainIngredients": [
+        "bulgur",
+        "tomato paste",
+        "onion",
+        "butter"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "kisir": {
+      "displayName": "Kısır (Turkish Bulgur Salad)",
+      "description": "A refreshing salad made with fine bulgur, parsley, and tomatoes.",
+      "history": "A popular meze and side dish, especially in southern Turkey.",
+      "mainIngredients": [
+        "fine bulgur",
+        "parsley",
+        "tomato paste",
+        "pomegranate molasses"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "kunefe": {
+      "displayName": "Künefe",
+      "description": "A sweet cheese pastry made with shredded phyllo dough (kadayıf).",
+      "history": "A specialty of the Hatay region, famous for its stretchy cheese.",
+      "mainIngredients": [
+        "kadayıf",
+        "unsalted cheese",
+        "butter",
+        "syrup"
+      ],
+      "tags": [
+        "tatlı",
+        "şerbetli",
+        "peynir",
+        "Hatay"
+      ],
+      "nutritionInfo": {}
+    },
+    "pilav": {
+      "displayName": "Rice Pilaf",
+      "description": "White rice cooked in butter and broth, often with orzo (şehriye).",
+      "history": "The foundation of many Turkish main courses.",
+      "mainIngredients": [
+        "rice",
+        "butter",
+        "orzo",
+        "broth"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "cacik": {
+      "displayName": "Cacık",
+      "description": "A refreshing cold soup or meze made from yogurt, cucumbers, and garlic.",
+      "history": "Similar to Greek tzatziki but typically more diluted.",
+      "mainIngredients": [
+        "yogurt",
+        "cucumber",
+        "garlic",
+        "mint"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "kiymali-pide": {
+      "displayName": "Pide with Minced Meat",
+      "description": "A boat-shaped Turkish flatbread topped with minced meat.",
+      "history": "A very popular type of pide, associated with the Black Sea region.",
+      "mainIngredients": [
+        "flour",
+        "minced meat",
+        "tomato",
+        "green pepper"
+      ],
+      "tags": [
+        "kıyma",
+        "hamur işi",
+        "fırın",
+        "Karadeniz"
+      ],
+      "nutritionInfo": {}
+    },
+    "salcali-makarna": {
+      "displayName": "Pasta with Tomato Paste",
+      "description": "A simple Turkish comfort food of pasta coated in sautéed tomato paste.",
+      "history": "A staple in Turkish households, popular among students.",
+      "mainIngredients": [
+        "pasta",
+        "tomato paste",
+        "oil",
+        "salt"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "tavuk-sote": {
+      "displayName": "Chicken Sauté",
+      "description": "Diced chicken sautéed with tomatoes, peppers, and onions.",
+      "history": "A quick and versatile main course found in homes and restaurants.",
+      "mainIngredients": [
+        "chicken breast",
+        "tomato",
+        "pepper",
+        "onion"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "coban-salatasi": {
+      "displayName": "Shepherd's Salad",
+      "description": "A simple and refreshing Turkish salad with finely chopped vegetables.",
+      "history": "Its name reflects its humble origins.",
+      "mainIngredients": [
+        "tomato",
+        "cucumber",
+        "green pepper",
+        "onion",
+        "parsley"
+      ],
+      "tags": [
+        "salata",
+        "sebzeli",
+        "hafif",
+        "vejetaryen"
+      ],
+      "nutritionInfo": {}
+    },
+    "tarhana-corbasi": {
+      "displayName": "Tarhana Soup",
+      "description": "A traditional soup made from 'tarhana,' a fermented and dried mixture.",
+      "history": "An ancient preservation method to consume summer products in winter.",
+      "mainIngredients": [
+        "tarhana",
+        "tomato paste",
+        "butter",
+        "mint"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "sulu-kuru-fasulye-yemegi": {
+      "displayName": "Kuru Fasulye (White Bean Stew)",
+      "description": "A hearty stew of white beans cooked slowly with tomato paste.",
+      "history": "Considered by many to be the national dish of Turkey.",
+      "mainIngredients": [
+        "white beans",
+        "tomato paste",
+        "onion",
+        "butter"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "peynirli-borek": {
+      "displayName": "Peynirli Börek (Cheese Börek)",
+      "description": "A savory pastry with layers of thin dough (yufka) filled with cheese.",
+      "imageUrl": "assets/images/peynirli-borek.jpg",
+      "history": "Börek is a family of pastries with roots in the Ottoman Empire.",
+      "mainIngredients": [
+        "yufka",
+        "feta cheese",
+        "parsley",
+        "egg"
+      ],
+      "tags": [
+        "peynir",
+        "hamur işi",
+        "fırın",
+        "tepsi yemeği"
+      ],
+      "nutritionInfo": {}
+    },
+    "dondurma": {
+      "displayName": "Dondurma (Turkish Ice Cream)",
+      "description": "A unique ice cream known for its chewy, elastic texture.",
+      "history": "Originating from Kahramanmaraş, its texture comes from salep.",
+      "mainIngredients": [
+        "milk",
+        "sugar",
+        "salep",
+        "mastic"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "biber-dolma": {
+      "displayName": "Biber Dolması (Stuffed Peppers)",
+      "description": "Bell peppers stuffed with a mixture of rice, onions, and herbs.",
+      "history": "A classic example of 'dolma' (stuffed vegetables).",
+      "mainIngredients": [
+        "bell pepper",
+        "rice",
+        "onion",
+        "tomato paste"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "omlet": {
+      "displayName": "Omelette",
+      "description": "A simple breakfast dish made from beaten eggs fried in a pan.",
+      "history": "A globally recognized dish, its Turkish version is often plain or with cheese.",
+      "mainIngredients": [
+        "eggs",
+        "butter or oil",
+        "salt"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "turk-kahvesi": {
+      "displayName": "Turkish Coffee",
+      "description": "A style of coffee prepared using very finely ground, unfiltered coffee beans.",
+      "history": "A UNESCO Intangible Cultural Heritage, central to Turkish culture.",
+      "mainIngredients": [
+        "coffee",
+        "water",
+        "sugar (optional)"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "anne-koftesi": {
+      "displayName": "Mother's Meatballs",
+      "description": "Simple, pan-fried meatballs made with a classic family recipe.",
+      "history": "The ultimate comfort food for many Turks.",
+      "mainIngredients": [
+        "minced meat",
+        "onion",
+        "bread crumbs",
+        "parsley"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "ayran": {
+      "displayName": "Ayran",
+      "description": "A cold and savory yogurt-based beverage, mixed with water and salt.",
+      "history": "A traditional drink with ancient roots in Central Asia.",
+      "mainIngredients": [
+        "yogurt",
+        "water",
+        "salt"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "cay": {
+      "displayName": "Turkish Tea",
+      "description": "Black tea brewed in a 'çaydanlık' and served in small tulip-shaped glasses.",
+      "history": "The most consumed hot drink in Turkey and a symbol of hospitality.",
+      "mainIngredients": [
+        "black tea leaves",
+        "water",
+        "sugar (optional)"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "kabak-mucver": {
+      "displayName": "Mücver (Zucchini Fritters)",
+      "description": "Savory fritters made from grated zucchini, eggs, flour, and herbs.",
+      "history": "A popular meze or light main course, often served with a garlic yogurt dip.",
+      "mainIngredients": [
+        "zucchini",
+        "egg",
+        "flour",
+        "dill"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "karpuz": {
+      "displayName": "Watermelon",
+      "description": "A large, sweet fruit with a green rind and red, watery pulp.",
+      "history": "Cultivated in the Nile Valley, it is a symbol of summer in Turkey.",
+      "mainIngredients": [
+        "fruit"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "yayla-corbasi": {
+      "displayName": "Yayla Çorbası (Highland Meadow Soup)",
+      "description": "A creamy soup made with yogurt, rice, and mint.",
+      "history": "Its name evokes the fresh ingredients of the highland meadows ('yayla').",
+      "mainIngredients": [
+        "yogurt",
+        "rice",
+        "egg yolk",
+        "dried mint"
+      ],
+      "tags": [
+        "çorba",
+        "yoğurtlu",
+        "pirinçli",
+        "nane"
+      ],
+      "nutritionInfo": {}
+    },
+    "zeytinyagli-fasulye": {
+      "displayName": "Zeytinyağlı Fasulye (Green Beans in Olive Oil)",
+      "description": "A light dish of green beans cooked in olive oil with tomatoes and onions.",
+      "history": "A staple of Turkish meze, often served at room temperature.",
+      "mainIngredients": [
+        "green beans",
+        "olive oil",
+        "tomato",
+        "onion"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "hamsi-tava": {
+      "displayName": "Hamsi Tava (Fried Anchovies)",
+      "description": "Fresh anchovies coated in cornmeal and pan-fried until crispy.",
+      "history": "Hamsi (anchovy) is the most iconic fish of the Black Sea.",
+      "mainIngredients": [
+        "anchovies",
+        "cornmeal",
+        "oil",
+        "salt"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "sucuklu-yumurta": {
+      "displayName": "Sucuklu Yumurta (Eggs with Turkish Sausage)",
+      "description": "A beloved Turkish breakfast dish of eggs fried with slices of spicy Turkish sausage.",
+      "history": "A simple, hearty, and flavorful dish that is a staple of the traditional Turkish breakfast.",
+      "mainIngredients": [
+        "sucuk",
+        "eggs",
+        "butter or oil"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "ispanak-yemegi": {
+      "displayName": "Ispanak Yemeği (Spinach Dish)",
+      "description": "A comforting home-style dish of spinach cooked with onions and rice.",
+      "history": "A classic example of Turkish 'zeytinyağlı' (olive oil based) dishes.",
+      "mainIngredients": [
+        "spinach",
+        "onion",
+        "rice",
+        "olive oil"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "midye-dolma": {
+      "displayName": "Midye Dolma (Stuffed Mussels)",
+      "description": "Mussels stuffed with herbed and spiced rice, a popular street food.",
+      "history": "An iconic street food that is often eaten in large quantities.",
+      "mainIngredients": [
+        "mussels",
+        "rice",
+        "onion",
+        "spices",
+        "dill"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "gozleme": {
+      "displayName": "Gözleme",
+      "description": "A savory Turkish flatbread filled with various toppings, sealed, and cooked over a griddle.",
+      "history": "A classic rustic food, its name comes from the Turkish word 'göz' meaning eye.",
+      "mainIngredients": [
+        "flour",
+        "cheese or minced meat",
+        "butter"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "simit": {
+      "displayName": "Simit (Turkish Bagel)",
+      "description": "A circular bread, typically encrusted with sesame seeds and molasses.",
+      "history": "An iconic street food of Istanbul, its history dates back to the 16th century.",
+      "mainIngredients": [
+        "flour",
+        "sesame seeds",
+        "molasses"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "apple": {
+      "displayName": "Apple",
+      "description": "A crisp and juicy fruit, eaten raw or used in a variety of dishes and drinks.",
+      "history": "Apples originated in Central Asia and have been cultivated for thousands of years.",
+      "mainIngredients": [
+        "Fiber",
+        "Vitamin C",
+        "Antioxidants"
+      ],
+      "tags": [
+        "meyve",
+        "sağlıklı",
+        "atıştırmalık"
+      ],
+      "nutritionInfo": {
+        "calories_per_100g": 52,
+        "default_serving_size_g": 180
+      }
+    },
+    "banana": {
+      "displayName": "Banana",
+      "description": "An elongated, edible fruit, botanically a berry, known for its high potassium content.",
+      "history": "Bananas are native to tropical Indomalaya and Australia.",
+      "mainIngredients": [
+        "Potassium",
+        "Vitamin B6",
+        "Vitamin C",
+        "Carbohydrates"
+      ],
+      "tags": [
+        "meyve",
+        "sağlıklı",
+        "potasyum"
+      ],
+      "nutritionInfo": {
+        "calories_per_100g": 89,
+        "default_serving_size_g": 118
+      }
+    },
+    "orange": {
+      "displayName": "Orange",
+      "description": "A citrus fruit known for its sweet taste and being a powerhouse of Vitamin C.",
+      "history": "The orange is a hybrid between pomelo and mandarin.",
+      "mainIngredients": [
+        "Vitamin C",
+        "Fiber",
+        "Folate",
+        "Thiamine"
+      ],
+      "tags": [
+        "meyve",
+        "sağlıklı",
+        "C vitamini",
+        "narenciye"
+      ],
+      "nutritionInfo": {
+        "calories_per_100g": 47,
+        "default_serving_size_g": 150
+      }
+    },
+    "carrot": {
+      "displayName": "Carrot",
+      "description": "A root vegetable, typically orange in color.",
+      "history": "Originally cultivated for its leaves and seeds in Persia.",
+      "mainIngredients": [
+        "Beta-carotene",
+        "Fiber",
+        "Vitamin K1",
+        "Potassium"
+      ],
+      "tags": [
+        "sebze",
+        "sağlıklı",
+        "kök sebze"
+      ],
+      "nutritionInfo": {
+        "calories_per_100g": 41,
+        "default_serving_size_g": 61
+      }
+    },
+    "tomato": {
+      "displayName": "Tomato",
+      "description": "A red, edible berry, commonly used as a vegetable in cooking.",
+      "history": "Native to western South America.",
+      "mainIngredients": [
+        "Lycopene",
+        "Vitamin C",
+        "Potassium",
+        "Vitamin K"
+      ],
+      "tags": [
+        "sebze",
+        "salata",
+        "suluyemek"
+      ],
+      "nutritionInfo": {
+        "calories_per_100g": 18,
+        "default_serving_size_g": 120
+      }
+    },
+    "spinach": {
+      "displayName": "Spinach",
+      "description": "A leafy green flowering plant packed with nutrients.",
+      "history": "Famously associated with strength thanks to the cartoon character Popeye.",
+      "mainIngredients": [
+        "Iron",
+        "Vitamin K",
+        "Vitamin A",
+        "Folic Acid"
+      ],
+      "tags": [
+        "sebze",
+        "yeşillik",
+        "demir"
+      ],
+      "nutritionInfo": {
+        "calories_per_100g": 23,
+        "default_serving_size_g": 100
+      }
+    },
+    "cabbage": {
+      "displayName": "Cabbage",
+      "description": "A leafy vegetable grown for its dense-leaved heads.",
+      "history": "A staple in many cuisines, it has been cultivated for thousands of years.",
+      "mainIngredients": [
+        "Vitamin K",
+        "Vitamin C",
+        "Fiber"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "capsicum": {
+      "displayName": "Capsicum (Bell Pepper)",
+      "description": "A type of large bell pepper, known for its mild flavor and vibrant colors.",
+      "history": "Native to the Americas, spread by Spanish and Portuguese explorers.",
+      "mainIngredients": [
+        "Vitamin C",
+        "Vitamin A",
+        "Antioxidants"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "cauliflower": {
+      "displayName": "Cauliflower",
+      "description": "A cruciferous vegetable whose name is from Latin caulis (cabbage) and floris (flower).",
+      "history": "It gained popularity in France in the 16th century.",
+      "mainIngredients": [
+        "Vitamin C",
+        "Vitamin K",
+        "Fiber",
+        "Choline"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "chilli pepper": {
+      "displayName": "Chilli Pepper",
+      "description": "The fruit of plants from the genus Capsicum, known for its spiciness.",
+      "history": "Part of the human diet in the Americas since at least 7500 BC.",
+      "mainIngredients": [
+        "Capsaicin",
+        "Vitamin C",
+        "Vitamin B6"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "lemon": {
+      "displayName": "Lemon",
+      "description": "A species of small evergreen trees known for its sour juice.",
+      "history": "The lemon is a hybrid of bitter orange and citron.",
+      "mainIngredients": [
+        "Vitamin C",
+        "Citric Acid",
+        "Flavonoids"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "onion": {
+      "displayName": "Onion",
+      "description": "A vegetable that is the most widely cultivated species of the genus Allium.",
+      "history": "Used for thousands of years as a food ingredient.",
+      "mainIngredients": [
+        "Quercetin",
+        "Sulfur compounds",
+        "Vitamin C"
+      ],
+      "tags": [],
+      "nutritionInfo": {}
+    },
+    "potato": {
+      "displayName": "Potato",
+      "description": "A starchy root vegetable native to the Andes in South America.",
+      "history": "Introduced to Europe in the 16th century by the Spanish.",
+      "mainIngredients": [
+        "Carbohydrates",
+        "Potassium",
+        "Vitamin C",
+        "Vitamin B6"
+      ],
+      "tags": [
+        "sebze",
+        "karbonhidrat",
+        "kızartma",
+        "haşlama"
+      ],
+      "nutritionInfo": {
+        "calories_per_100g": 77,
+        "default_serving_size_g": 170
+      }
+    }
+  }
+}

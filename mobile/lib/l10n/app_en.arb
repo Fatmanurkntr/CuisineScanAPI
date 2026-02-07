@@ -1,0 +1,84 @@
+{
+    "@@locale": "en",
+    "appTitle": "CuisineScan",
+    "homeHeroTitle": "Scan Your Food,\nTaste the World.",
+    "homeHeroSubtitle": "Discover food and its culture from photos with AI.",
+    "homeStartScanning": "Start Scanning",
+    "homeFeaturedTitle": "Explore Featured Flavors",
+    "homeFeaturedSubtitle": "Some of the popular dishes our application can recognize.",
+    "tabHome": "Home",
+    "tabScan": "Scan",
+    "tabHistory": "History",
+    "tabProfile": "Profile",
+    "selectionTitle": "What would you like to scan?",
+    "selectionTurkishFood": "Turkish Cuisine",
+    "selectionTurkishFoodSubtitle": "Recognize traditional dishes and plates.",
+    "selectionFruitVeg": "Fruit & Vegetable",
+    "selectionFruitVegSubtitle": "Recognize a single fruit or vegetable.",
+    "scanTitleTurkish": "Scan Turkish Cuisine",
+    "scanTitleFruitVeg": "Scan Fruit & Veg",
+    "previewTitle": "Preview",
+    "previewUseThisPhoto": "Use This Photo",
+    "previewRetry": "Retry",
+    "resultsTitle": "Scan Result",
+    "resultsBestGuess": "Best Guess",
+    "resultsConfidence": "{confidence}% Confidence",
+    "@resultsConfidence": {
+        "description": "Confidence percentage for the prediction.",
+        "placeholders": {
+            "confidence": {
+                "type": "String"
+            }
+        }
+    },
+    "resultsDescription": "Description",
+    "resultsHistory": "History",
+    "resultsIngredients": "Main Ingredients",
+    "resultsNutrition": "Average Nutrition",
+    "resultsCalories": "Estimated Calories",
+    "resultsServing": "for a portion of ~{servingSize}g",
+    "@resultsServing": {
+        "description": "Text describing the serving size for nutrition info.",
+        "placeholders": {
+            "servingSize": {
+                "type": "String"
+            }
+        }
+    },
+    "resultsDetailsNotFound": "Detailed information could not be found for this item.",
+    "small": "Small",
+    "standard": "Standard",
+    "large": "Large",
+    "saveToHistoryButton": "Save to History",
+    "languageSelection": "Language Selection",
+    "profileInfoTitle": "Profile Information",
+    "logoutButton": "Log Out",
+    "logoutMessage": "Logged out successfully!",
+    "settingsTitle": "Settings",
+    "resultsConfidence": "{confidence}% Confidence",
+    "@resultsConfidence": {
+        "description": "Confidence percentage for the prediction.",
+        "placeholders": {
+            "confidence": {
+                "type": "String"
+            }
+        }
+    },
+    "resultsServing": "for a portion of ~{servingSize}g",
+    "@resultsServing": {
+        "description": "Text describing the serving size for nutrition info.",
+        "placeholders": {
+            "servingSize": {
+                "type": "String"
+            }
+        }
+    },
+    "historyEmptyTitle": "No History Yet",
+    "historyEmptySubtitle": "Your scanned items will appear here. Start scanning to build your collection!",
+    "tabExplore": "Explore",
+    "explorePageTitle": "Discover New Tastes",
+    "explorePageSubtitle": "Discovery feature coming soon!",
+    "seeAll": "See All",
+    "saveSuccessMessage": "Successfully saved to history!",
+    "saveErrorMessage": "Could not save to history. Please try again."
+}

@@ -1,0 +1,143 @@
+{
+    "adana-kebap": [
+        "et",
+        "kebap",
+        "acılı",
+        "ızgara",
+        "Adana"
+    ],
+    "baklava": [
+        "tatlı",
+        "şerbetli",
+        "hamur işi",
+        "fıstıklı",
+        "Gaziantep"
+    ],
+    "doner": [
+        "et",
+        "tavuk",
+        "kebap",
+        "sokak lezzeti",
+        "dürüm"
+    ],
+    "iskender": [
+        "et",
+        "kebap",
+        "yoğurtlu",
+        "soslu",
+        "Bursa"
+    ],
+    "manti": [
+        "kıyma",
+        "hamur işi",
+        "yoğurtlu",
+        "soslu",
+        "Kayseri"
+    ],
+    "lahmacun": [
+        "kıyma",
+        "hamur işi",
+        "fırın",
+        "sokak lezzeti",
+        "Gaziantep"
+    ],
+    "mercimek-corbasi": [
+        "çorba",
+        "bakliyat",
+        "sıcak başlangıç",
+        "vejetaryen"
+    ],
+    "yaprak-sarma": [
+        "zeytinyağlı",
+        "dolma",
+        "meze",
+        "pirinçli",
+        "vejetaryen"
+    ],
+    "sutlac": [
+        "tatlı",
+        "sütlü tatlı",
+        "pirinçli",
+        "fırın"
+    ],
+    "menemen": [
+        "kahvaltılık",
+        "yumurtalı",
+        "sebzeli",
+        "tava yemeği"
+    ],
+    "icli-kofte": [
+        "kıyma",
+        "bulgur",
+        "kızartma",
+        "haşlama",
+        "yöresel"
+    ],
+    "kiymali-pide": [
+        "kıyma",
+        "hamur işi",
+        "fırın",
+        "Karadeniz"
+    ],
+    "peynirli-borek": [
+        "peynir",
+        "hamur işi",
+        "fırın",
+        "tepsi yemeği"
+    ],
+    "kunefe": [
+        "tatlı",
+        "şerbetli",
+        "peynir",
+        "Hatay"
+    ],
+    "yayla-corbasi": [
+        "çorba",
+        "yoğurtlu",
+        "pirinçli",
+        "nane"
+    ],
+    "coban-salatasi": [
+        "salata",
+        "sebzeli",
+        "hafif",
+        "vejetaryen"
+    ],
+    "apple": [
+        "meyve",
+        "sağlıklı",
+        "atıştırmalık"
+    ],
+    "banana": [
+        "meyve",
+        "sağlıklı",
+        "potasyum"
+    ],
+    "orange": [
+        "meyve",
+        "sağlıklı",
+        "C vitamini",
+        "narenciye"
+    ],
+    "carrot": [
+        "sebze",
+        "sağlıklı",
+        "kök sebze"
+    ],
+    "tomato": [
+        "sebze",
+        "salata",
+        "suluyemek"
+    ],
+    "spinach": [
+        "sebze",
+        "yeşillik",
+        "demir"
+    ],
+    "potato": [
+        "sebze",
+        "karbonhidrat",
+        "kızartma",
+        "haşlama"
+    ]
+}

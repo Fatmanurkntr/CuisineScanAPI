@@ -1,0 +1,789 @@
+{
+    "app_title": "CuisineScan 📸",
+    "app_subtitle": "Recognize your food with AI!",
+    "select_prompt": "What do you want to scan?",
+    "option_turkish": "Turkish Dish / Plate",
+    "option_fruit_veg": "Single Fruit / Vegetable",
+    "button_scan": "SCAN & RECOGNIZE",
+    "loader_text": "Analyzing...",
+    "preview_title": "Selected Image:",
+    "results_title": "Results:",
+    "prediction": "Prediction",
+    "confidence": "Confidence",
+    "information": "Information",
+    "description": "Description",
+    "history": "History",
+    "ingredients": "Main Ingredients",
+    "nutrition": "Average Nutrition",
+    "for_serving": "for",
+    "estimated_calories": "Estimated Calories",
+    "vitamins_minerals": "Vitamins & Minerals",
+    "not_specified": "Not specified",
+    "adjust_portion": "Adjust Portion",
+    "small": "Small",
+    "standard": "Standard",
+    "large": "Large",
+    "approx": "Approx.",
+    "details_not_found": "Detailed information for this food could not be found.",
+    "error_unrecognized": "Object not recognized",
+    "error_unrecognized_msg": "The uploaded image does not sufficiently resemble any of the foods in our database.",
+    "food_details": {
+        "adana-kebap": {
+            "display_name": "Adana Kebap",
+            "description": "A long, hand-minced meat kebab known for its spiciness.",
+            "history": "Originating from Adana, this kebab is a protected designation of origin.",
+            "main_ingredients": [
+                "minced lamb",
+                "tail fat",
+                "red pepper flakes",
+                "salt"
+            ],
+            "serving_size_description": "1 portion (pide)"
+        },
+        "baklava": {
+            "display_name": "Baklava",
+            "description": "A rich, sweet dessert pastry made of layers of filo filled with chopped nuts.",
+            "history": "Its origins trace back to the Ottoman Empire, with Gaziantep being world-famous for it.",
+            "main_ingredients": [
+                "phyllo dough",
+                "pistachios or walnuts",
+                "butter",
+                "sugar syrup"
+            ],
+            "serving_size_description": "2 slices (80g)"
+        },
+        "doner": {
+            "display_name": "Döner Kebap",
+            "description": "Seasoned meat stacked and turned slowly on a vertical rotisserie.",
+            "history": "A common street food in Turkey, its modern form was popularized in the 19th century.",
+            "main_ingredients": [
+                "beef or chicken",
+                "spices",
+                "pita bread",
+                "vegetables"
+            ],
+            "serving_size_description": "1 portion (sandwich)"
+        },
+        "iskender": {
+            "display_name": "İskender Kebap",
+            "description": "Döner meat over pita bread, with hot tomato sauce and sizzling butter.",
+            "history": "Invented by İskender Efendi in Bursa in the late 19th century.",
+            "main_ingredients": [
+                "döner meat",
+                "pita bread",
+                "tomato sauce",
+                "butter",
+                "yogurt"
+            ],
+            "serving_size_description": "1 portion (plate)"
+        },
+        "manti": {
+            "display_name": "Mantı (Turkish Dumplings)",
+            "description": "Small handmade dumplings filled with minced meat, served with a yogurt and garlic sauce.",
+            "history": "A staple in Turkish and Central Asian cuisines, often called Turkish ravioli.",
+            "main_ingredients": [
+                "flour",
+                "minced meat",
+                "onion",
+                "yogurt",
+                "garlic"
+            ],
+            "serving_size_description": "1 portion (plate)"
+        },
+        "lahmacun": {
+            "display_name": "Lahmacun",
+            "description": "A thin piece of dough topped with minced meat, vegetables, and herbs.",
+            "history": "Often called 'Turkish pizza,' it is a popular and quick meal.",
+            "main_ingredients": [
+                "dough",
+                "minced meat",
+                "tomato",
+                "pepper",
+                "parsley"
+            ],
+            "serving_size_description": "1 piece"
+        },
+        "mercimek-corbasi": {
+            "display_name": "Lentil Soup",
+            "description": "A creamy and hearty soup made from red lentils, a staple in Turkish cuisine.",
+            "history": "One of the most common and beloved soups in Turkey.",
+            "main_ingredients": [
+                "red lentils",
+                "onion",
+                "carrot",
+                "potato",
+                "mint"
+            ],
+            "serving_size_description": "1 bowl"
+        },
+        "yaprak-sarma": {
+            "display_name": "Yaprak Sarma (Stuffed Grape Leaves)",
+            "description": "Grape leaves stuffed with a mixture of rice, onions, and herbs.",
+            "history": "A classic example of 'dolma' (stuffed dishes) in Ottoman cuisine.",
+            "main_ingredients": [
+                "grape leaves",
+                "rice",
+                "onion",
+                "olive oil",
+                "herbs"
+            ],
+            "serving_size_description": "5-6 pieces"
+        },
+        "sutlac": {
+            "display_name": "Sütlaç (Rice Pudding)",
+            "description": "A classic, creamy oven-baked rice pudding, often with a caramelized top.",
+            "history": "Its name comes from 'sütlü aş' (milky food) and it has deep roots in Ottoman palace cuisine.",
+            "main_ingredients": [
+                "rice",
+                "milk",
+                "sugar",
+                "vanilla"
+            ],
+            "serving_size_description": "1 bowl"
+        },
+        "menemen": {
+            "display_name": "Menemen",
+            "description": "A traditional Turkish breakfast dish made with eggs, tomatoes, and peppers.",
+            "history": "Originating from the town of Menemen in İzmir, it's a national favorite.",
+            "main_ingredients": [
+                "eggs",
+                "tomato",
+                "green pepper",
+                "olive oil"
+            ],
+            "serving_size_description": "1 portion (plate)"
+        },
+        "icli-kofte": {
+            "display_name": "İçli Köfte (Stuffed Bulgur Balls)",
+            "description": "Deep-fried or boiled bulgur shells filled with seasoned minced meat.",
+            "history": "A delicacy from southeastern Turkey, reflecting the region’s rich cuisine.",
+            "main_ingredients": [
+                "bulgur",
+                "minced meat",
+                "onion",
+                "walnuts"
+            ],
+            "serving_size_description": "2 large pieces"
+        },
+        "kokorec": {
+            "display_name": "Kokoreç",
+            "description": "Grilled seasoned lamb intestines, chopped and served in bread.",
+            "history": "A street food classic in Turkey, especially popular after night outings.",
+            "main_ingredients": [
+                "lamb intestines",
+                "spices",
+                "bread"
+            ],
+            "serving_size_description": "Half bread sandwich"
+        },
+        "cig-kofte": {
+            "display_name": "Çiğ Köfte",
+            "description": "Spicy bulgur balls, now commonly vegetarian, served wrapped in lettuce.",
+            "history": "Rooted in Şanlıurfa traditions, now a widely consumed street food.",
+            "main_ingredients": [
+                "bulgur",
+                "tomato paste",
+                "pepper paste",
+                "spices"
+            ],
+            "serving_size_description": "6-7 pieces or 1 wrap"
+        },
+        "su-boregi": {
+            "display_name": "Su Böreği",
+            "description": "A savory pastry made with layers of dough and cheese, boiled before baking.",
+            "history": "A luxurious dish often served on special occasions, from Ottoman cuisine.",
+            "main_ingredients": [
+                "phyllo dough",
+                "cheese",
+                "parsley",
+                "butter"
+            ],
+            "serving_size_description": "2 slices"
+        },
+        "tantuni": {
+            "display_name": "Tantuni",
+            "description": "Thin slices of sautéed beef or chicken wrapped in lavash bread.",
+            "history": "A specialty from Mersin, known for its light and spicy flavor.",
+            "main_ingredients": [
+                "beef or chicken",
+                "lavash bread",
+                "onion",
+                "parsley"
+            ],
+            "serving_size_description": "1 wrap"
+        },
+        "kazandibi": {
+            "display_name": "Kazandibi (Caramelized Milk Pudding)",
+            "description": "A caramelized milk dessert, known for its unique burnt-bottom layer.",
+            "history": "An iconic Ottoman palace dessert.",
+            "main_ingredients": [
+                "milk",
+                "rice flour",
+                "sugar",
+                "butter"
+            ],
+            "serving_size_description": "1 portion (plate)"
+        },
+        "tulumba-tatlisi": {
+            "display_name": "Tulumba Dessert",
+            "description": "Deep-fried dough soaked in sugar syrup, crispy outside and soft inside.",
+            "history": "A beloved street dessert across Turkey.",
+            "main_ingredients": [
+                "flour",
+                "semolina",
+                "egg",
+                "syrup",
+                "oil"
+            ],
+            "serving_size_description": "4-5 small pieces"
+        },
+        "karniyarik": {
+            "display_name": "Karnıyarık (Stuffed Eggplant)",
+            "description": "Fried eggplants filled with a savory minced meat mixture.",
+            "history": "One of the most iconic Turkish home-cooked meals.",
+            "main_ingredients": [
+                "eggplant",
+                "minced meat",
+                "onion",
+                "tomato",
+                "oil"
+            ],
+            "serving_size_description": "1 medium piece"
+        },
+        "hunkar-begendi": {
+            "display_name": "Hünkar Beğendi (Sultan's Delight)",
+            "description": "Tender lamb stew served over a creamy, smoky eggplant purée.",
+            "history": "Legend says it was created for Empress Eugénie, wife of Napoleon III.",
+            "main_ingredients": [
+                "lamb or beef",
+                "eggplant",
+                "milk",
+                "flour"
+            ],
+            "serving_size_description": "1 portion (plate)"
+        },
+        "bulgur-pilavi": {
+            "display_name": "Bulgur Pilaf",
+            "description": "A hearty pilaf made from coarse bulgur wheat, often with tomatoes.",
+            "history": "A staple side dish, considered a healthier alternative to rice.",
+            "main_ingredients": [
+                "bulgur",
+                "tomato paste",
+                "onion",
+                "butter"
+            ],
+            "serving_size_description": "1 portion (plate)"
+        },
+        "kisir": {
+            "display_name": "Kısır (Turkish Bulgur Salad)",
+            "description": "A refreshing salad made with fine bulgur, parsley, and tomatoes.",
+            "history": "A popular meze and side dish, especially in southern Turkey.",
+            "main_ingredients": [
+                "fine bulgur",
+                "parsley",
+                "tomato paste",
+                "pomegranate molasses"
+            ],
+            "serving_size_description": "1 portion (plate)"
+        },
+        "kunefe": {
+            "display_name": "Künefe",
+            "description": "A sweet cheese pastry made with shredded phyllo dough (kadayıf).",
+            "history": "A specialty of the Hatay region, famous for its stretchy cheese.",
+            "main_ingredients": [
+                "kadayıf",
+                "unsalted cheese",
+                "butter",
+                "syrup"
+            ],
+            "serving_size_description": "1 portion"
+        },
+        "pilav": {
+            "display_name": "Rice Pilaf",
+            "description": "White rice cooked in butter and broth, often with orzo (şehriye).",
+            "history": "The foundation of many Turkish main courses.",
+            "main_ingredients": [
+                "rice",
+                "butter",
+                "orzo",
+                "broth"
+            ],
+            "serving_size_description": "1 portion (plate)"
+        },
+        "cacik": {
+            "display_name": "Cacık",
+            "description": "A refreshing cold soup or meze made from yogurt, cucumbers, and garlic.",
+            "history": "Similar to Greek tzatziki but typically more diluted.",
+            "main_ingredients": [
+                "yogurt",
+                "cucumber",
+                "garlic",
+                "mint"
+            ],
+            "serving_size_description": "1 bowl"
+        },
+        "kiymali-pide": {
+            "display_name": "Pide with Minced Meat",
+            "description": "A boat-shaped Turkish flatbread topped with minced meat.",
+            "history": "A very popular type of pide, associated with the Black Sea region.",
+            "main_ingredients": [
+                "flour",
+                "minced meat",
+                "tomato",
+                "green pepper"
+            ],
+            "serving_size_description": "1 piece"
+        },
+        "salcali-makarna": {
+            "display_name": "Pasta with Tomato Paste",
+            "description": "A simple Turkish comfort food of pasta coated in sautéed tomato paste.",
+            "history": "A staple in Turkish households, popular among students.",
+            "main_ingredients": [
+                "pasta",
+                "tomato paste",
+                "oil",
+                "salt"
+            ],
+            "serving_size_description": "1 portion (plate)"
+        },
+        "tavuk-sote": {
+            "display_name": "Chicken Sauté",
+            "description": "Diced chicken sautéed with tomatoes, peppers, and onions.",
+            "history": "A quick and versatile main course found in homes and restaurants.",
+            "main_ingredients": [
+                "chicken breast",
+                "tomato",
+                "pepper",
+                "onion"
+            ],
+            "serving_size_description": "1 portion (plate)"
+        },
+        "coban-salatasi": {
+            "display_name": "Shepherd's Salad",
+            "description": "A simple and refreshing Turkish salad with finely chopped vegetables.",
+            "history": "Its name reflects its humble origins.",
+            "main_ingredients": [
+                "tomato",
+                "cucumber",
+                "green pepper",
+                "onion",
+                "parsley"
+            ],
+            "serving_size_description": "1 portion (bowl)"
+        },
+        "tarhana-corbasi": {
+            "display_name": "Tarhana Soup",
+            "description": "A traditional soup made from 'tarhana,' a fermented and dried mixture.",
+            "history": "An ancient preservation method to consume summer products in winter.",
+            "main_ingredients": [
+                "tarhana",
+                "tomato paste",
+                "butter",
+                "mint"
+            ],
+            "serving_size_description": "1 bowl"
+        },
+        "sulu-kuru-fasulye-yemegi": {
+            "display_name": "Kuru Fasulye (White Bean Stew)",
+            "description": "A hearty stew of white beans cooked slowly with tomato paste.",
+            "history": "Considered by many to be the national dish of Turkey.",
+            "main_ingredients": [
+                "white beans",
+                "tomato paste",
+                "onion",
+                "butter"
+            ],
+            "serving_size_description": "1 portion (plate)"
+        },
+        "peynirli-borek": {
+            "display_name": "Peynirli Börek (Cheese Börek)",
+            "description": "A savory pastry with layers of thin dough (yufka) filled with cheese.",
+            "history": "Börek is a family of pastries with roots in the Ottoman Empire.",
+            "main_ingredients": [
+                "yufka",
+                "feta cheese",
+                "parsley",
+                "egg"
+            ],
+            "serving_size_description": "1 slice or portion"
+        },
+        "dondurma": {
+            "display_name": "Dondurma (Turkish Ice Cream)",
+            "description": "A unique ice cream known for its chewy, elastic texture.",
+            "history": "Originating from Kahramanmaraş, its texture comes from salep.",
+            "main_ingredients": [
+                "milk",
+                "sugar",
+                "salep",
+                "mastic"
+            ],
+            "serving_size_description": "2 scoops"
+        },
+        "biber-dolma": {
+            "display_name": "Biber Dolması (Stuffed Peppers)",
+            "description": "Bell peppers stuffed with a mixture of rice, onions, and herbs.",
+            "history": "A classic example of 'dolma' (stuffed vegetables).",
+            "main_ingredients": [
+                "bell pepper",
+                "rice",
+                "onion",
+                "tomato paste"
+            ],
+            "serving_size_description": "2 medium pieces"
+        },
+        "omlet": {
+            "display_name": "Omelette",
+            "description": "A simple breakfast dish made from beaten eggs fried in a pan.",
+            "history": "A globally recognized dish, its Turkish version is often plain or with cheese.",
+            "main_ingredients": [
+                "eggs",
+                "butter or oil",
+                "salt"
+            ],
+            "serving_size_description": "2 eggs"
+        },
+        "turk-kahvesi": {
+            "display_name": "Turkish Coffee",
+            "description": "A style of coffee prepared using very finely ground, unfiltered coffee beans.",
+            "history": "A UNESCO Intangible Cultural Heritage, central to Turkish culture.",
+            "main_ingredients": [
+                "coffee",
+                "water",
+                "sugar (optional)"
+            ],
+            "serving_size_description": "1 cup"
+        },
+        "anne-koftesi": {
+            "display_name": "Mother's Meatballs",
+            "description": "Simple, pan-fried meatballs made with a classic family recipe.",
+            "history": "The ultimate comfort food for many Turks.",
+            "main_ingredients": [
+                "minced meat",
+                "onion",
+                "bread crumbs",
+                "parsley"
+            ],
+            "serving_size_description": "4-5 pieces"
+        },
+        "ayran": {
+            "display_name": "Ayran",
+            "description": "A cold and savory yogurt-based beverage, mixed with water and salt.",
+            "history": "A traditional drink with ancient roots in Central Asia.",
+            "main_ingredients": [
+                "yogurt",
+                "water",
+                "salt"
+            ],
+            "serving_size_description": "1 large glass"
+        },
+        "cay": {
+            "display_name": "Turkish Tea",
+            "description": "Black tea brewed in a 'çaydanlık' and served in small tulip-shaped glasses.",
+            "history": "The most consumed hot drink in Turkey and a symbol of hospitality.",
+            "main_ingredients": [
+                "black tea leaves",
+                "water",
+                "sugar (optional)"
+            ],
+            "serving_size_description": "1 small glass"
+        },
+        "kabak-mucver": {
+            "display_name": "Mücver (Zucchini Fritters)",
+            "description": "Savory fritters made from grated zucchini, eggs, flour, and herbs.",
+            "history": "A popular meze or light main course, often served with a garlic yogurt dip.",
+            "main_ingredients": [
+                "zucchini",
+                "egg",
+                "flour",
+                "dill"
+            ],
+            "serving_size_description": "3-4 pieces"
+        },
+        "karpuz": {
+            "display_name": "Watermelon",
+            "description": "A large, sweet fruit with a green rind and red, watery pulp.",
+            "history": "Cultivated in the Nile Valley, it is a symbol of summer in Turkey.",
+            "main_ingredients": [
+                "fruit"
+            ],
+            "serving_size_description": "1 large slice"
+        },
+        "yayla-corbasi": {
+            "display_name": "Yayla Çorbası (Highland Meadow Soup)",
+            "description": "A creamy soup made with yogurt, rice, and mint.",
+            "history": "Its name evokes the fresh ingredients of the highland meadows ('yayla').",
+            "main_ingredients": [
+                "yogurt",
+                "rice",
+                "egg yolk",
+                "dried mint"
+            ],
+            "serving_size_description": "1 bowl"
+        },
+        "zeytinyagli-fasulye": {
+            "display_name": "Zeytinyağlı Fasulye (Green Beans in Olive Oil)",
+            "description": "A light dish of green beans cooked in olive oil with tomatoes and onions.",
+            "history": "A staple of Turkish meze, often served at room temperature.",
+            "main_ingredients": [
+                "green beans",
+                "olive oil",
+                "tomato",
+                "onion"
+            ],
+            "serving_size_description": "1 portion (plate)"
+        },
+        "hamsi-tava": {
+            "display_name": "Hamsi Tava (Fried Anchovies)",
+            "description": "Fresh anchovies coated in cornmeal and pan-fried until crispy.",
+            "history": "Hamsi (anchovy) is the most iconic fish of the Black Sea.",
+            "main_ingredients": [
+                "anchovies",
+                "cornmeal",
+                "oil",
+                "salt"
+            ],
+            "serving_size_description": "1 portion (plate)"
+        },
+        "sucuklu-yumurta": {
+            "display_name": "Sucuklu Yumurta (Eggs with Turkish Sausage)",
+            "description": "A beloved Turkish breakfast dish of eggs fried with slices of spicy Turkish sausage.",
+            "history": "A simple, hearty, and flavorful dish that is a staple of the traditional Turkish breakfast.",
+            "main_ingredients": [
+                "sucuk",
+                "eggs",
+                "butter or oil"
+            ],
+            "serving_size_description": "1 sausage, 2 eggs"
+        },
+        "ispanak-yemegi": {
+            "display_name": "Ispanak Yemeği (Spinach Dish)",
+            "description": "A comforting home-style dish of spinach cooked with onions and rice.",
+            "history": "A classic example of Turkish 'zeytinyağlı' (olive oil based) dishes.",
+            "main_ingredients": [
+                "spinach",
+                "onion",
+                "rice",
+                "olive oil"
+            ],
+            "serving_size_description": "1 portion (plate)"
+        },
+        "midye-dolma": {
+            "display_name": "Midye Dolma (Stuffed Mussels)",
+            "description": "Mussels stuffed with herbed and spiced rice, a popular street food.",
+            "history": "An iconic street food that is often eaten in large quantities.",
+            "main_ingredients": [
+                "mussels",
+                "rice",
+                "onion",
+                "spices",
+                "dill"
+            ],
+            "serving_size_description": "5-6 pieces"
+        },
+        "gozleme": {
+            "display_name": "Gözleme",
+            "description": "A savory Turkish flatbread filled with various toppings, sealed, and cooked over a griddle.",
+            "history": "A classic rustic food, its name comes from the Turkish word 'göz' meaning eye.",
+            "main_ingredients": [
+                "flour",
+                "cheese or minced meat",
+                "butter"
+            ],
+            "serving_size_description": "1 piece"
+        },
+        "simit": {
+            "display_name": "Simit (Turkish Bagel)",
+            "description": "A circular bread, typically encrusted with sesame seeds and molasses.",
+            "history": "An iconic street food of Istanbul, its history dates back to the 16th century.",
+            "main_ingredients": [
+                "flour",
+                "sesame seeds",
+                "molasses"
+            ],
+            "serving_size_description": "1 standard piece"
+        },
+        "apple": {
+            "display_name": "Apple",
+            "description": "A crisp and juicy fruit, eaten raw or used in a variety of dishes and drinks.",
+            "history": "Apples originated in Central Asia and have been cultivated for thousands of years.",
+            "main_ingredients": [
+                "Fiber",
+                "Vitamin C",
+                "Antioxidants"
+            ],
+            "serving_size_description": "1 medium"
+        },
+        "banana": {
+            "display_name": "Banana",
+            "description": "An elongated, edible fruit, botanically a berry, known for its high potassium content.",
+            "history": "Bananas are native to tropical Indomalaya and Australia.",
+            "main_ingredients": [
+                "Potassium",
+                "Vitamin B6",
+                "Vitamin C",
+                "Carbohydrates"
+            ],
+            "serving_size_description": "1 medium"
+        },
+        "orange": {
+            "display_name": "Orange",
+            "description": "A citrus fruit known for its sweet taste and being a powerhouse of Vitamin C.",
+            "history": "The orange is a hybrid between pomelo and mandarin.",
+            "main_ingredients": [
+                "Vitamin C",
+                "Fiber",
+                "Folate",
+                "Thiamine"
+            ],
+            "serving_size_description": "1 medium"
+        },
+        "carrot": {
+            "display_name": "Carrot",
+            "description": "A root vegetable, typically orange in color.",
+            "history": "Originally cultivated for its leaves and seeds in Persia.",
+            "main_ingredients": [
+                "Beta-carotene",
+                "Fiber",
+                "Vitamin K1",
+                "Potassium"
+            ],
+            "serving_size_description": "1 medium"
+        },
+        "tomato": {
+            "display_name": "Tomato",
+            "description": "A red, edible berry, commonly used as a vegetable in cooking.",
+            "history": "Native to western South America.",
+            "main_ingredients": [
+                "Lycopene",
+                "Vitamin C",
+                "Potassium",
+                "Vitamin K"
+            ],
+            "serving_size_description": "1 medium"
+        },
+        "spinach": {
+            "display_name": "Spinach",
+            "description": "A leafy green flowering plant packed with nutrients.",
+            "history": "Famously associated with strength thanks to the cartoon character Popeye.",
+            "main_ingredients": [
+                "Iron",
+                "Vitamin K",
+                "Vitamin A",
+                "Folic Acid"
+            ],
+            "serving_size_description": "100g portion"
+        },
+        "cabbage": {
+            "display_name": "Cabbage",
+            "description": "A leafy vegetable grown for its dense-leaved heads.",
+            "history": "A staple in many cuisines, it has been cultivated for thousands of years.",
+            "main_ingredients": [
+                "Vitamin K",
+                "Vitamin C",
+                "Fiber"
+            ],
+            "serving_size_description": "1 cup, chopped"
+        },
+        "capsicum": {
+            "display_name": "Capsicum (Bell Pepper)",
+            "description": "A type of large bell pepper, known for its mild flavor and vibrant colors.",
+            "history": "Native to the Americas, spread by Spanish and Portuguese explorers.",
+            "main_ingredients": [
+                "Vitamin C",
+                "Vitamin A",
+                "Antioxidants"
+            ],
+            "serving_size_description": "1 medium"
+        },
+        "cauliflower": {
+            "display_name": "Cauliflower",
+            "description": "A cruciferous vegetable whose name is from Latin caulis (cabbage) and floris (flower).",
+            "history": "It gained popularity in France in the 16th century.",
+            "main_ingredients": [
+                "Vitamin C",
+                "Vitamin K",
+                "Fiber",
+                "Choline"
+            ],
+            "serving_size_description": "100g portion"
+        },
+        "chilli pepper": {
+            "display_name": "Chilli Pepper",
+            "description": "The fruit of plants from the genus Capsicum, known for its spiciness.",
+            "history": "Part of the human diet in the Americas since at least 7500 BC.",
+            "main_ingredients": [
+                "Capsaicin",
+                "Vitamin C",
+                "Vitamin B6"
+            ],
+            "serving_size_description": "1 medium"
+        },
+        "lemon": {
+            "display_name": "Lemon",
+            "description": "A species of small evergreen trees known for its sour juice.",
+            "history": "The lemon is a hybrid of bitter orange and citron.",
+            "main_ingredients": [
+                "Vitamin C",
+                "Citric Acid",
+                "Flavonoids"
+            ],
+            "serving_size_description": "1 medium"
+        },
+        "onion": {
+            "display_name": "Onion",
+            "description": "A vegetable that is the most widely cultivated species of the genus Allium.",
+            "history": "Used for thousands of years as a food ingredient.",
+            "main_ingredients": [
+                "Quercetin",
+                "Sulfur compounds",
+                "Vitamin C"
+            ],
+            "serving_size_description": "1 medium"
+        },
+        "potato": {
+            "display_name": "Potato",
+            "description": "A starchy root vegetable native to the Andes in South America.",
+            "history": "Introduced to Europe in the 16th century by the Spanish.",
+            "main_ingredients": [
+                "Carbohydrates",
+                "Potassium",
+                "Vitamin C",
+                "Vitamin B6"
+            ],
+            "serving_size_description": "1 medium (boiled)"
+        }
+    },
+    "hero_title": "Scan Your Food, Taste the World.",
+    "hero_subtitle": "Discover food and its culture from photos with AI.",
+    "hero_button": "Start Scanning",
+    "scanner_title": "Upload a Photo of Your Meal",
+    "upload_prompt": "Select File or Drag and Drop",
+    "results_placeholder": "Results will be shown here...",
+    "nav_explore": "Explore",
+    "nav_cuisines": "Cuisines",
+    "nav_top_rated": "Top Rated",
+    "nav_about": "About Us",
+    "nav_login": "Log In",
+    "nav_signup": "Sign Up",
+    "explore_section": {
+        "title": "Explore Featured Flavors",
+        "subtitle": "Some of the popular dishes our application can recognize.",
+        "foods": [
+            {
+                "name": "Iskender Kebap",
+                "description": "A famous dish from Bursa with döner, butter, and tomato sauce.",
+                "image": "images/iskender.jpg"
+            },
+            {
+                "name": "Lahmacun",
+                "description": "A classic thin pastry topped with minced meat, vegetables, and spices.",
+                "image": "images/lahmacun.jpg"
+            },
+            {
+                "name": "Icli Kofte (Stuffed Meatballs)",
+                "description": "A delicious dish where bulgur dough is filled with minced meat.",
+                "image": "images/icli-kofte.jpg"
+            }
+        ]
+    }
+}

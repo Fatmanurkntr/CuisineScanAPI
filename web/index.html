@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CuisineScan</title>
+    <link rel="icon" type="image/png" href="images/logo.png"> <!-- favicon.png olarak güncellendi -->
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@700&family=Playfair+Display:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Kendi Özel CSS Dosyamız -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ======================= HEADER ======================= -->
+    <header class="site-header navbar navbar-expand-lg">
+        <div class="container-fluid px-4">
+            <div class="header-top">
+                <a class="navbar-brand fw-bold d-flex align-items-center" href="#">
+                    <img src="images/logo.png" alt="CuisineScan Logo" height="32" class="me-2">
+                    CuisineScan
+                </a>
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="header-top-right d-none d-lg-flex">
+                    <div id="language-selector-desktop">
+                        <button class="btn btn-sm btn-outline-secondary active" data-lang="tr">TR</button>
+                        <button class="btn btn-sm btn-outline-secondary" data-lang="en">EN</button>
+                    </div>
+                    <div class="user-actions">
+                        <a href="#" class="btn btn-sm" data-i18n="nav_login">Giriş Yap</a>
+                        <a href="#" class="btn btn-sm btn-dark" data-i18n="nav_signup">Kayıt Ol</a>
+                    </div>
+                </div>
+            </div>
+            <hr class="header-divider d-none d-lg-block">
+            <div class="collapse navbar-collapse" id="mainNav">
+                <nav class="header-bottom-nav d-none d-lg-block">
+                    <ul>
+                        <li><a href="#explore" data-i18n="nav_explore">Keşfet</a></li>
+                        <li><a href="#" data-i18n="nav_cuisines">Mutfaklar</a></li>
+                        <li><a href="#" data-i18n="nav_top_rated">En Beğenilenler</a></li>
+                        <li><a href="#" data-i18n="nav_about">Hakkımızda</a></li>
+                    </ul>
+                </nav>
+                <div class="mobile-actions-wrapper d-lg-none">
+                    <nav class="header-bottom-nav-mobile">
+                        <ul>
+                            <li><a href="#explore" data-i18n="nav_explore">Keşfet</a></li>
+                            <li><a href="#" data-i18n="nav_cuisines">Mutfaklar</a></li>
+                            <li><a href="#" data-i18n="nav_top_rated">En Beğenilenler</a></li>
+                            <li><a href="#" data-i18n="nav_about">Hakkımızda</a></li>
+                        </ul>
+                    </nav>
+                    <hr class="mobile-divider">
+                    <div id="language-selector-mobile" class="mb-3">
+                        <button class="btn btn-sm btn-outline-secondary active" data-lang="tr">TR</button>
+                        <button class="btn btn-sm btn-outline-secondary" data-lang="en">EN</button>
+                    </div>
+                    <div class="user-actions-mobile">
+                        <a href="#" class="btn btn-sm" data-i18n="nav_login">Giriş Yap</a>
+                        <a href="#" class="btn btn-sm btn-dark ms-2" data-i18n="nav_signup">Kayıt Ol</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ======================= HERO ======================= -->
+    <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+        <div class="hero-content text-center">
+            <h1 class="display-3 fw-bold" data-i18n="hero_title">Scan Your Food, Taste the World.</h1>
+            <p class="lead my-4" data-i18n="hero_subtitle" data-aos="fade-up" data-aos-delay="200">Discover food and its culture from photos with AI.</p>
+            <!-- DİKKAT: Eksik attribute'lar buraya eklendi -->
+            <button type="button" class="btn btn-primary btn-lg fw-bold" data-bs-toggle="modal" data-bs-target="#scannerModal" data-i18n="hero_button" data-aos="fade-up" data-aos-delay="400">
+                Start Scanning
+            </button>
+        </div>
+    </section>
+
+    <!-- ======================= EXPLORE ======================= -->
+    <section id="explore" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 data-i18n="explore_title">Öne Çıkan Lezzetleri Keşfet</h2>
+                <p class="lead text-muted" data-i18n="explore_subtitle">Uygulamamızın tanıyabildiği popüler yemeklerden bazıları.</p>
+            </div>
+            <div id="explore-cards" class="row g-4"></div>
+        </div>
+    </section>
+
+    <!-- ======================= SCANNER MODAL ======================= -->
+    <div class="modal fade" id="scannerModal" tabindex="-1" aria-labelledby="scannerModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-fullscreen-md-down modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="scannerModalLabel" data-i18n="scanner_title">Upload a Photo of Your Meal</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row gy-5">
+                <div class="col-lg-5 col-md-12 d-flex flex-column">
+                    <div id="model-selector" class="mb-4 text-start">
+                        <p class="fw-bold" data-i18n="select_prompt">What do you want to scan?</p>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="radio" name="modelType" value="turkish_food" id="modelTurkish" checked>
+                            <label class="form-check-label" for="modelTurkish" data-i18n="option_turkish">Turkish Dish / Plate</label>
+                        </div>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="radio" name="modelType" value="fruit_veg" id="modelFruit">
+                            <label class="form-check-label" for="modelFruit" data-i18n="option_fruit_veg">Single Fruit / Vegetable</label>
+                        </div>
+                    </div>
+                    <label for="image-input" class="upload-box flex-grow-1">
+                        <div id="upload-prompt">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-cloud-arrow-up" viewBox="0 0 16 16">
+                             <path fill-rule="evenodd" d="M7.646 5.146a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1-.708.708L8.5 6.707V10.5a.5.5 0 0 1-1 0V6.707L6.354 7.854a.5.5 0 1 1-.708-.708l2-2z"/>
+                             <path d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383zm.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z"/>
+                           </svg>
+                           <p class="mt-2" data-i18n="upload_prompt">Select File or Drag and Drop</p>
+                        </div>
+                        <input type="file" id="image-input" accept="image/*" class="d-none">
+                        <img id="image-preview" src="#" alt="Önizleme" class="img-fluid rounded d-none">
+                    </label>
+                </div>
+                <div class="col-lg-7 col-md-12">
+                    <div id="results-container" class="h-100 d-flex flex-column justify-content-center">
+                        <div id="loader" class="spinner-border text-primary mx-auto d-none" role="status"><span class="visually-hidden">Loading...</span></div>
+                        <div id="results-placeholder" class="text-center text-muted">
+                            <p data-i18n="results_placeholder">Results will be shown here...</p>
+                        </div>
+                        <div id="results-area"></div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ======================= FOOTER ======================= -->
+    <footer class="site-footer text-center py-5">
+        <div class="container">
+            <p class="mb-0 text-muted">© 2024 CuisineScan. All Rights Reserved.</p>
+            <div class="footer-links mt-2">
+                <a href="#" class="text-muted small">Privacy Policy</a>
+                <span class="mx-2 text-muted small">|</span>
+                <a href="#" class="text-muted small">Terms of Use</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SCRIPT'LER -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

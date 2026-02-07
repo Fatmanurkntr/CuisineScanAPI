@@ -1,0 +1,84 @@
+{
+    "@@locale": "tr",
+    "appTitle": "CuisineScan",
+    "homeHeroTitle": "Yemeğini Tanı,\nDünyayı Tat.",
+    "homeHeroSubtitle": "Yapay zeka ile fotoğraftan yemekleri ve kültürlerini keşfet.",
+    "homeStartScanning": "Taramayı Başlat",
+    "homeFeaturedTitle": "Öne Çıkan Lezzetleri Keşfet",
+    "homeFeaturedSubtitle": "Uygulamamızın tanıyabildiği popüler yemeklerden bazıları.",
+    "tabHome": "Ana Sayfa",
+    "tabScan": "Tara",
+    "tabHistory": "Geçmiş",
+    "tabProfile": "Profil",
+    "selectionTitle": "Ne Taramak İstersiniz?",
+    "selectionTurkishFood": "Türk Mutfağı",
+    "selectionTurkishFoodSubtitle": "Geleneksel yemekleri ve tabakları tanıyın.",
+    "selectionFruitVeg": "Meyve & Sebze",
+    "selectionFruitVegSubtitle": "Tek bir meyve veya sebzeyi tanıyın.",
+    "scanTitleTurkish": "Türk Mutfağı Tara",
+    "scanTitleFruitVeg": "Meyve & Sebze Tara",
+    "previewTitle": "Önizleme",
+    "previewUseThisPhoto": "Bu Fotoğrafı Kullan",
+    "previewRetry": "Yeniden",
+    "resultsTitle": "Tarama Sonucu",
+    "resultsBestGuess": "En İyi Tahmin",
+    "resultsConfidence": "%{confidence} Güven Oranı",
+    "@resultsConfidence": {
+        "description": "Confidence percentage for the prediction.",
+        "placeholders": {
+            "confidence": {
+                "type": "String"
+            }
+        }
+    },
+    "resultsDescription": "Açıklama",
+    "resultsHistory": "Tarihçe",
+    "resultsIngredients": "Ana Malzemeler",
+    "resultsNutrition": "Ortalama Besin Değeri",
+    "resultsCalories": "Tahmini Kalori",
+    "resultsServing": "yaklaşık {servingSize}g porsiyon için",
+    "@resultsServing": {
+        "description": "Text describing the serving size for nutrition info.",
+        "placeholders": {
+            "servingSize": {
+                "type": "String"
+            }
+        }
+    },
+    "resultsDetailsNotFound": "Bu yiyecek için detaylı bilgi bulunamadı.",
+    "small": "Küçük",
+    "standard": "Standart",
+    "large": "Büyük",
+    "saveToHistoryButton": "Geçmişe Kaydet",
+    "languageSelection": "Dil Seçimi",
+    "profileInfoTitle": "Profil Bilgileri",
+    "logoutButton": "Çıkış Yap",
+    "logoutMessage": "Başarıyla çıkış yapıldı!",
+    "settingsTitle": "Ayarlar",
+    "resultsConfidence": "%{confidence} Güven Oranı",
+    "@resultsConfidence": {
+        "description": "Confidence percentage for the prediction.",
+        "placeholders": {
+            "confidence": {
+                "type": "String"
+            }
+        }
+    },
+    "resultsServing": "yaklaşık {servingSize}g porsiyon için",
+    "@resultsServing": {
+        "description": "Text describing the serving size for nutrition info.",
+        "placeholders": {
+            "servingSize": {
+                "type": "String"
+            }
+        }
+    },
+    "historyEmptyTitle": "Henüz Geçmiş Yok",
+    "historyEmptySubtitle": "Taradığınız öğeler burada görünecek. Koleksiyonunuzu oluşturmak için taramaya başlayın!",
+    "tabExplore": "Keşfet",
+    "explorePageTitle": "Yeni Lezzetler Keşfet",
+    "explorePageSubtitle": "Keşfet özelliği yakında gelecek!",
+    "seeAll": "Tümünü Gör",
+    "saveSuccessMessage": "Geçmişe başarıyla kaydedildi!",
+    "saveErrorMessage": "Geçmişe kaydedilemedi. Lütfen tekrar deneyin."
+}

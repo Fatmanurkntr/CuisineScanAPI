@@ -1,0 +1,88 @@
+{
+    "food_data": {
+        "adana-kebap": {
+            "calories_per_100g": 250,
+            "default_serving_size_g": 220
+        },
+        "baklava": {
+            "calories_per_100g": 400,
+            "default_serving_size_g": 80
+        },
+        "doner": {
+            "calories_per_100g": 220,
+            "default_serving_size_g": 250
+        },
+        "iskender": {
+            "calories_per_100g": 160,
+            "default_serving_size_g": 450
+        },
+        "manti": {
+            "calories_per_100g": 210,
+            "default_serving_size_g": 250
+        },
+        "lahmacun": {
+            "calories_per_100g": 180,
+            "default_serving_size_g": 150
+        },
+        "mercimek-corbasi": {
+            "calories_per_100g": 50,
+            "default_serving_size_g": 300
+        },
+        "yaprak-sarma": {
+            "calories_per_100g": 140,
+            "default_serving_size_g": 150
+        },
+        "sutlac": {
+            "calories_per_100g": 135,
+            "default_serving_size_g": 220
+        },
+        "menemen": {
+            "calories_per_100g": 110,
+            "default_serving_size_g": 250
+        },
+        "icli-kofte": {
+            "calories_per_100g": 215,
+            "default_serving_size_g": 180
+        },
+        "kokorec": {
+            "calories_per_100g": 280,
+            "default_serving_size_g": 200
+        },
+        "cig-kofte": {
+            "calories_per_100g": 170,
+            "default_serving_size_g": 180
+        },
+        "su-boregi": {
+            "calories_per_100g": 290,
+            "default_serving_size_g": 150
+        },
+        "apple": {
+            "calories_per_100g": 52,
+            "default_serving_size_g": 180
+        },
+        "banana": {
+            "calories_per_100g": 89,
+            "default_serving_size_g": 118
+        },
+        "orange": {
+            "calories_per_100g": 47,
+            "default_serving_size_g": 150
+        },
+        "carrot": {
+            "calories_per_100g": 41,
+            "default_serving_size_g": 61
+        },
+        "tomato": {
+            "calories_per_100g": 18,
+            "default_serving_size_g": 120
+        },
+        "spinach": {
+            "calories_per_100g": 23,
+            "default_serving_size_g": 100
+        },
+        "potato": {
+            "calories_per_100g": 77,
+            "default_serving_size_g": 170
+        }
+    }
+}
